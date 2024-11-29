@@ -1,11 +1,11 @@
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
-export default function WhatsAppIcon() {
+function WhatsAppIcon() {
 
   return (
       <FloatingWhatsApp  
-        phone="+54 9 3512 17-2630" 
+        phoneNumber="+54 9 3512 17-2630" 
         accountName="Veterinaria NEFRONCOVET"        
         chatMessage="Hola! En que podemos ayudarte?"    
         statusMessage=""
@@ -17,3 +17,5 @@ export default function WhatsAppIcon() {
       />
   )
 }
+
+export default WhatsAppIcon

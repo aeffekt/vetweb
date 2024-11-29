@@ -5,9 +5,9 @@ import '../css/Header.css'
 function Header() {
     return (        
         <header className="header">            
-            <a href="/Home">
-            <img className="logo-img" src={logo2} alt="Logo veterinaria"/>  
-            <img className="name-img" src={dglogo} alt="Diego Gonzalez"/>                  
+            <a href="/home">
+                <img className="logo-img" src={logo2} alt="Logo veterinaria"/>  
+                <img className="name-img" src={dglogo} alt="Diego Gonzalez"/>                  
             </a>
         </header>
     )
