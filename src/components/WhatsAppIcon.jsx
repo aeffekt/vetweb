@@ -11,8 +11,7 @@ function WhatsAppIcon() {
         statusMessage=""
         placeholder="Escriba un mensaje"
         darkMode="true"
-        allowClickAway="true"
-        avatar="src/images/NEFRONCOVET.enc"
+        allowClickAway="true"        
         text="Hola! me gustaría reservar un turno para atender a mi mascota. Saludos!"    
       />
   )
