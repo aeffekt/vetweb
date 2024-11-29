@@ -1,0 +1,45 @@
+.navbar-container {        
+    background-color: rgba(100, 100, 100, 0.1);    
+    backdrop-filter: blur(5px);
+    height: 78px;
+    z-index: 999;
+    animation: navbar-scroll ease-out both;
+    animation-timeline: scroll(root);
+    animation-range: 0 300px;    
+    justify-content: space-between;
+}
+
+@keyframes navbar-scroll {
+    to {        
+        background-color: rgba(200, 200, 200, 0.7);
+    }
+}
+
+.ul-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.ul-navbar li a {
+    color: var(--title-color);
+    padding: 0px 30px;
+    font-size: 1.1em;
+    font-weight: 700;
+    user-select: none;
+}
+
+.ul-navbar li:hover {
+    cursor: pointer;
+    scale: 1.05;
+    filter: drop-shadow(0px 0px 10px var(--distint-color-off));
+    transition: all 120ms ease-in;
+}
+
+.ul-navbar li a:hover {
+    color: var(--distint-color);
+}
+
+.ul-navbar li a {
+    text-decoration: none;
+}

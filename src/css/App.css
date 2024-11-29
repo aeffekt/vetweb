@@ -1,42 +1,149 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #e6e6e6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   text-align: center;
+
+  --distint-color: #5dccc6;  
+  --distint-color-off: #b4e3e3;
+  --title-color: #007571d4;
+  --line-color: #959595d4;
+  --font-color: rgb(0, 0, 0);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+html,
+body {
+  margin: 0px;
+  color: var(--font-color);
+  font-size: 1.1em;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to bottom right, rgb(237, 245, 248), rgb(235, 235, 235));
+  font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+.distint-color {
+  color: var(--distint-color);
+}
+
+
+.title-color {
+  color: var(--title-color);
+}
+
+.text-sutil {
+  color: rgba(255, 255, 255, 0.662);
+  font-weight: 300;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  padding: 0 20px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.new-block {
+  display: block;
+  text-align: left;
+  margin-top: 5em;
+}
+
+.new-block>h2 {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.project-container,
+.contacto-container,
+.acerca-container,
+.stackicons-container,
+.experiencias-container {
+  animation: revealUp 1s linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+.new-block>h2 {
+  animation: revealRight 1s linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+.nav-target {
+  height: 50px;
+}
+
+.button:hover{  
+  background-color: var(--distint-color-off);
+  box-shadow: 0 0 20px 0 var(--distint-color);
+}
+
+@keyframes revealUp {
+  0% {
+    translate: 100px 50px;
+    opacity: 0;
+    scale: .5;
   }
-  to {
-    transform: rotate(360deg);
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    translate: 0 0;
+    opacity: 1;
+    scale: 1;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@keyframes revealRight {
+  0% {
+    translate: -700px 0px;
+    opacity: 0;
+    scale: .2;
+  }
+
+  50% {
+    translate: 10px 0px;
+    opacity: 0.3;
+    scale: .5;
+  }
+
+  100% {
+    translate: 0 0;
+    opacity: 1;
+    scale: 1;
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@media screen and (max-width: 506px) {
+  .navbar-container>.ul-navbar li a{
+    font-size: 0.65em;
+    padding: 5px;
+    margin: 0;
+  }
 }
