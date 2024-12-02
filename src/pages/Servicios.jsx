@@ -1,9 +1,11 @@
 import Layout from './Layout';
+import Faq from '../components/Faq';
+import data from '../data/servicios.json';
 
 function Servicios() {
     return (
-        <Layout>
-            <h1>Servicios</h1>
+        <Layout>            
+            <Faq data={ data }/>
         </Layout>
         
     )

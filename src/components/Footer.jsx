@@ -1,12 +1,17 @@
 import '../css/Footer.css'
+import Logoico from '../images/logoicosmall.png'
+import AAmarca from './AAmarca';
 
 
 function Footer() {
   return (
     <footer className='footer-container'>            
         <footer>
-            Veterinaria Dermatológica &copy; 2024 &nbsp;
-            <img src="../images/heart.png" alt="" /> &nbsp;            
+            <img decoding='async' src={ Logoico } alt="" />
+            <h3>Veterinaria Dermatológica
+              <p><b>Lic. Diego Gonzalez <i>MP: 4566</i></b></p>
+            </h3>
+            <AAmarca />
         </footer>      
     </footer>
   )

@@ -1,11 +1,12 @@
 import Layout from './Layout';
+import Faq from '../components/Faq';
+import data from '../data/formaTrabajo.json';
 
 function FormaDeTrabajo() {
     return (
         <Layout>
-            <h1>Forma De Trabajo</h1>
-        </Layout>
-        
+            <Faq  data={ data }/>
+        </Layout>        
     )
 }
 

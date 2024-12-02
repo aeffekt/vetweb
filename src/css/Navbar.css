@@ -1,13 +1,14 @@
-.navbar-container {   
-    
+.navbar-container { 
+    display: flex; /* Asegura que los hijos sean elementos flexibles */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
     background-color: rgba(100, 100, 100, 0.1);    
     backdrop-filter: blur(5px);
     height: 78px;
     z-index: 999;
     animation: navbar-scroll ease-out both;
     animation-timeline: scroll(root);
-    animation-range: 0 300px;    
-    justify-content: space-between;
+    animation-range: 0 300px;        
 }
 
 @keyframes navbar-scroll {
@@ -20,7 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;    
+    justify-content: center;        
 }
 
 .ul-navbar li a {

@@ -6,8 +6,8 @@ function Header() {
     return (        
         <header className="header">            
             <a href="./home">
-                <img className="logo-img" src={ logo2 } alt="Logo veterinaria"/>  
-                <img className="name-img" src={ dglogo } alt="Diego Gonzalez"/>                  
+                <img decoding='async' className="logo-img" src={ logo2 } alt="Logo veterinaria"/>  
+                <img decoding='async' className="name-img" src={ dglogo } alt="Diego Gonzalez"/>                  
             </a>
         </header>
     )
