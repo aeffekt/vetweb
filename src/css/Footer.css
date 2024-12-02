@@ -5,3 +5,18 @@
     margin-top: auto;
     width: 100%;
 }
+
+.aa-brand {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    text-decoration: none; /* Evita subrayado */
+    color: inherit; /* Mantiene el color del texto del contenedor padre */
+}
+
+/* Espaciado de la imagen */
+.aa-brand img {
+    border-radius: 20%;
+    margin-left: 10px; /* Separación entre el texto y la imagen */
+    height: 24px; /* Ajusta el tamaño de la imagen si es necesario */
+    width: auto;
+}
