@@ -11,6 +11,7 @@ function Footer() {
             <h3>Veterinaria Dermatológica
               <p><b>Lic. Diego Gonzalez <i>MP: 4566</i></b></p>
             </h3>
+            <br />
             <hr />
             <AAmarca />            
         </footer>      
