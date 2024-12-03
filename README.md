@@ -6,7 +6,8 @@ npm i react-router-dom
 npm i react-floating-whatsapp
 npm i react-faq-component
 npm i react-player
-npm i react-social-icons
+npm i react-social-icons *
+
 npm i
 npm run dev
 
