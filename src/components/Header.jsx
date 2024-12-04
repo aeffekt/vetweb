@@ -6,7 +6,7 @@ import '../css/Header.css'
 function Header() {
     return (        
         <header className="header">            
-            <Link to="./home">
+            <Link to="/home">
                 <img decoding='async' className="logo-img" src={ logo2 } alt="Logo veterinaria"/>  
                 <img decoding='async' className="name-img" src={ dglogo } alt="Diego Gonzalez"/>                  
             </Link>

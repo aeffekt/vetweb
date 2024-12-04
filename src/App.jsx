@@ -11,15 +11,15 @@ function App() {
   return (
     <> 
       <BrowserRouter>
-					<Routes>
-						<Route index element = { <Home /> } />
-						<Route path="/home" element={<Home />} />            
-            <Route path="/servicios" element={<Servicios />} />
-            <Route path="/forma-de-trabajo" element={<Trabajo />} />
-            <Route path="/informacion" element={<Informacion />} />
-            <Route path="/preguntas" element={<Preguntas />} />
-					</Routes>
-				</BrowserRouter>
+          <Routes>
+              <Route index element={<Home />} />
+              <Route path="/home" element={<Home />} />            
+              <Route path="/servicios" element={<Servicios />} />
+              <Route path="/forma-de-trabajo" element={<Trabajo />} />
+              <Route path="/informacion" element={<Informacion />} />
+              <Route path="/preguntas" element={<Preguntas />} />
+          </Routes>
+      </BrowserRouter>        
     </>
   )
 }
