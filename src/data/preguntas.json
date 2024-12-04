@@ -6,17 +6,19 @@
             "content": "Ni en pedo! es solo para lavar la ropa y el Turko lo usa para ducharse"
         },
         {
-            "title": "¿Es Diego el mejor veterinario?",
+            "title": "Pregunta 2",
             "content":
-                "Depende, de según como se mire todo depeendee e."
+                "Descripción Pregunta 2."
         },
         {
-            "title": "Waca waca",
-            "content": "Ea eh!"
+            "title": "Pregunta 3",
+            "content":
+                "Descripción Pregunta 3."
         },
         {
-            "title": "What is the package version",
-            "content": "current version is 1.2.1"
+            "title": "Pregunta 4",
+            "content":
+                "Descripción Pregunta 4."
         }
     ]
 }

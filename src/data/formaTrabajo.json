@@ -2,21 +2,24 @@
     "title": "Forma de Trabajo:",
     "rows": [
         {
-            "title": "Nombre de una forma de trabajo",
-            "content": "Descripción completa de dicha forma de trabajo"
-        },
-        {
-            "title": "¿Es Diego el mejor veterinario?",
+            "title": "Forma de trabajo 1",
             "content":
-                "Depende, de según como se mire todo depeendee e."
+                "Descripción Forma de trabajo 1."
         },
         {
-            "title": "Waca waca",
-            "content": "Ea eh!"
+            "title": "Forma de trabajo 2",
+            "content":
+                "Descripción Forma de trabajo 2."
         },
         {
-            "title": "What is the package version",
-            "content": "current version is 1.2.1"
+            "title": "Forma de trabajo 3",
+            "content":
+                "Descripción Forma de trabajo 3."
+        },
+        {
+            "title": "Forma de trabajo 4",
+            "content":
+                "Descripción Forma de trabajo 4."
         }
     ]
 }

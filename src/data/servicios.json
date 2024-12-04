@@ -2,21 +2,24 @@
     "title": "Servicios:",
     "rows": [
         {
-            "title": "¿Puedo usar jabón blanco para lavar mi mascota?",
-            "content": "Ni en pedo! es solo para lavar la ropa y el Turko lo usa para ducharse"
-        },
-        {
-            "title": "¿Es Diego el mejor veterinario?",
+            "title": "Servicio 1",
             "content":
-                "Depende, de según como se mire todo depeendee e."
+                "Descripción servicio 1."
         },
         {
-            "title": "Waca waca",
-            "content": "Ea eh!"
+            "title": "Servicio 2",
+            "content":
+                "Descripción servicio 2."
         },
         {
-            "title": "What is the package version",
-            "content": "current version is 1.2.1"
+            "title": "Servicio 3",
+            "content":
+                "Descripción servicio 3."
+        },
+        {
+            "title": "Servicio 4",
+            "content":
+                "Descripción servicio 4."
         }
     ]
 }
