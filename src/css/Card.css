@@ -1,8 +1,14 @@
 .card{
     border: 2px solid #999;
     border-radius: 20px;
-    margin: 20px;
+    margin: 20px;    
+    background-image: linear-gradient(to bottom right,rgba(0, 173, 165, 0.2), rgba(31, 98, 141, 0.4)) ;
+}
+
+.card img{
     filter: grayscale();
+    margin-top: 15px;
+    border-radius: 15px;
 }
 
 .card:hover{
@@ -11,8 +17,8 @@
     filter: None;
     box-shadow: 0 0 20px 0 rgba(32, 104, 160, 0.6);
     cursor: pointer;
+    & img{
+        filter: None;
+    }
 }
 
-.card.img {
-    padding-top: 20px;
-}

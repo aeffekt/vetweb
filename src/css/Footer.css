@@ -1,9 +1,14 @@
 .footer-container {    
-    padding: 2em 5em;
+    padding: 3em 5em 0.5em 5em;
     background-color: rgb(30, 30, 30); 
     color: rgb(211, 211, 211);
     margin-top: auto;
     width: 100%;
+}
+
+.footer-container hr{
+    margin: 50px 0 10px 0;
+    border-color: var(--title-color);
 }
 
 .aa-brand {

@@ -5,7 +5,7 @@ function AAmarca() {
   return (
       <>      
         <a href="https://www.arnaiz.com.ar" target="_blank" className="aa-brand">          
-          <small className='brand'>Sitio creado por </small>
+          <small className='brand'><i>Sitio creado por</i> </small>
           <img title="© Agustín Arnaiz" decoding='async' src={ aalogo } alt="Agustin Arnaiz Logo"/>          
         </a>        
     </>

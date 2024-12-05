@@ -1,31 +1,34 @@
 import Layout from './Layout';
 import Card from '../components/Card';
 import "../css/Home.css";
+import Perro from '../images/perro_baño_edit.jpg'
+import Maps from '../images/dire_maps.png'
+import Turno from '../images/turno.jpg'
 
 
 function Home() {
     return (
         <Layout>       
-            <section className="layout">
+            <section className="homelayout">
                 <div className="grow1">
                     <Card
-                        title="Servicio"
+                        title="Servicios"
                         description="Ver todos los servicios que ofrecemos"
-                        src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"                        
+                        src={Perro}
                     />
                 </div>
                 <div className="grow1">
                     <Card
                         title="Ubicación"
-                        description="Donde nos encontramos"
-                        src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"                        
+                        description="Donde nos encuentra"
+                        src={Maps}
                     />
                 </div>
                 <div className="grow1">
                     <Card
                         title="Turno"
                         description="Reserva tu turno vía Whatsapp"
-                        src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"                        
+                        src={Turno}
                     />
                 </div>
             </section>
