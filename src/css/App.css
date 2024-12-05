@@ -27,8 +27,6 @@
   font-style: normal;
 }
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -63,7 +61,8 @@ h1 {
   color: var(--title-color);
 }
 
-a {
+.no-decoration {
   text-decoration: none;
+  color: black;
 }
 
