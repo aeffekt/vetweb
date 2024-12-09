@@ -1,5 +1,5 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import logo from '../images/logo_nefroncovet.png';
+import logo from '../images/logo_nefroncovet.jpg';
 
 
 function WhatsAppIcon() {

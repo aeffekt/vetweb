@@ -2,24 +2,41 @@
     "title": "Servicios:",
     "rows": [
         {
-            "title": "Servicio 1",
+            "title": "Test de alergia",
             "content":
-                "Descripción servicio 1."
+                "Descripción servicio 1.",
+            "image":"/images/servicio1.jpg"
+            
         },
         {
-            "title": "Servicio 2",
+            "title": "Citología",
             "content":
-                "Descripción servicio 2."
+                "Descripción servicio 2.",
+            "image":"/images/servicio2.jpg"
         },
         {
-            "title": "Servicio 3",
+            "title": "Histopatología",
             "content":
-                "Descripción servicio 3."
+                "Descripción servicio 3.",
+            "image":"/images/servicio3.jpg"
         },
         {
-            "title": "Servicio 4",
+            "title": "Lámpara de Wood",
             "content":
-                "Descripción servicio 4."
+                "Descripción servicio 4.",
+            "image":"/images/servicio4.jpg"
+        },
+        {
+            "title": "Otoscopía",
+            "content":
+                "Descripción servicio 5.",
+            "image":"/images/servicio5.jpg"
+        },
+        {
+            "title": "Micología",
+            "content":
+                "Descripción servicio 6.",
+            "image":"/images/servicio6.jpg"
         }
     ]
 }

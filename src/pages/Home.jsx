@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
 import Layout from './Layout';
 import Card from '../components/Card';
+import Carousel from '../components/Carousel';
 import "../css/Home.css";
-import Perro from '../images/perro_baño_edit.jpg'
-import Maps from '../images/dire_maps.png'
+import Perro from '../images/consulta2.jpg'
+import Maps from '../images/dire_maps.jpg'
 import Turno from '../images/turno.jpg'
 
 
 function Home() {
     return (
-        <Layout>
+        <Layout>             
             <section className="homelayout">
                 <div className="grow1">
                     <Link className='no-decoration' to="/servicios">
@@ -19,7 +20,7 @@ function Home() {
                             src={Perro}
                         />
                     </Link>                    
-                </div>
+                </div>                
                 <div className="grow1">
                     <a 
                         className='no-decoration'
@@ -46,9 +47,7 @@ function Home() {
                     </a>
                 </div>
             </section>
-
-            
-            
+            <Carousel></Carousel>
         </Layout>        
     )
 }
