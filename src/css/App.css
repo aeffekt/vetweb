@@ -14,11 +14,9 @@
 
   text-align: center;
 
-  --distint-color: #5dccc6;  
-  --distint-color-off: #b4e3e3;
-  --title-color: #007571d4;
-  --line-color: #959595d4;
-  --font-color: rgb(0, 0, 0);
+  --primary-color:rgb(32, 98, 145);
+  --secondary-color: rgb(20, 74, 112);  
+  --alternative: rgb(69, 114, 155);
 }
 
 .lexend-font {
@@ -34,7 +32,7 @@
 html,
 body {
   margin: 0px;  
-  color: var(--font-color);
+  color: var(--alternative);
   font-size: 1.1em;
   scroll-behavior: smooth;
   background-image: linear-gradient(to bottom right, rgb(237, 245, 248), rgb(223, 223, 223));
@@ -52,13 +50,13 @@ h1 {
   font-size: 3.2em;
 }
 
-.distint-color {
-  color: var(--distint-color);
+.primary-color {
+  color: var(--primary-color);
 }
 
 
-.title-color {
-  color: var(--title-color);
+.secondary-color {
+  color: var(--secondary-color);
 }
 
 .no-decoration {

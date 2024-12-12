@@ -8,6 +8,7 @@ npm i react-faq-component
 npm i react-player
 npm install @mui/material @emotion/react @emotion/styled
 npm install swiper
+npm install styled-components
 npm i
 npm run dev
 
