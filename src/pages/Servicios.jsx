@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Divider } from '@mui/material';
 import Layout from './Layout';
-import Carousel from '../components/Carousel';
+import CarouselServicio from '../components/Carousel';
 import { PlantillaInfo } from '../components/PlantillaInfo'
 import allergyContent from "../data/allergy.json"
 import dermatologyContent from "../data/dermatology.json"
@@ -20,8 +20,12 @@ const contentData = [
 function Servicios() {
     return (
         <Layout>      
-            <Carousel />   
-            <Container maxWidth="lg" sx={{ py: 4 }}>
+            <CarouselServicio />   
+            <Container maxWidth="sm" 
+                sx={{ 
+                    py: 4, 
+                    
+                }}>
                 {contentData.map((item, index) => (
                     <React.Fragment key={item.type}>
                         <PlantillaInfo content={item.data} />
