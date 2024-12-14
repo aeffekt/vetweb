@@ -1,0 +1,74 @@
+{
+    "title": "PRICK TEST DE ALERGIA",
+    "sections": [
+      {
+        "type": "header",
+        "content": "PRICK TEST DE ALERGIA"
+      },
+      {
+        "type": "text",
+        "title": "¿QUE ES?",
+        "content": "El prick test es una prueba sencilla y rápida que se utiliza para identificar los alérgenos a los que tu mascota puede ser alérgica."
+      },
+      {
+        "type": "text",
+        "title": "¿CÓMO FUNCIONA?",
+        "content": "Se coloca una pequeña gota de diferentes alérgenos (como polen, ácaros del polvo, etc) sobre la piel de tu mascota y luego se realiza una pequeña punción a través de cada gota. Si tu mascota es alérgica a alguna sustancia, su piel reaccionará en ese punto, apareciendo un pequeño sarpullido o hinchazón."
+      },
+      {
+        "type": "list",
+        "title": "¿POR QUÉ ES IMPORTANTE?",
+        "items": [
+          {
+            "subtitle": "Diagnóstico preciso:",
+            "text": "Ayuda a identificar las causas exactas de los síntomas alérgicos de tu mascota."
+          },
+          {
+            "subtitle": "Tratamiento personalizado:",
+            "text": "Una vez identificados los alérgenos, el veterinario puede diseñar un plan de tratamiento específico para controlar las alergias de tu mascota."
+          }
+        ]
+      },
+      {
+        "type": "images",
+        "content": [
+          {
+            "src": "/placeholder.svg?height=300&width=400",
+            "alt": "Allergy test procedure"
+          },
+          {
+            "src": "/placeholder.svg?height=300&width=400",
+            "alt": "Test points pattern"
+          },
+          {
+            "src": "/placeholder.svg?height=300&width=400",
+            "alt": "Allergy test administration"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "¿CUÁLES SON LOS BENEFICIOS?",
+        "items": [
+          {
+            "subtitle": "Rápido y sencillo:",
+            "text": "Los resultados están listos en pocos minutos."
+          },
+          {
+            "subtitle": "Poco invasivo:",
+            "text": "Se trata de una prueba mínimamente invasiva que no requiere anestesia."
+          },
+          {
+            "subtitle": "Alta precisión:",
+            "text": "Es una prueba muy confiable para detectar alergias."
+          },
+          {
+            "subtitle": "Mejora la calidad de vida:",
+            "text": "Al conocer las causas de las alergias se pueden tomar medidas para reducir la exposición y mejorar la calidad de vida de tu mascota."
+          }
+        ]
+      }
+    ]
+  }
+  
+  

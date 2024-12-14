@@ -1,0 +1,43 @@
+{
+  "title": "OTOSCOPIA",
+  "sections": [
+    {
+      "type": "header",
+      "content": "OTOSCOPIA"
+    },
+    {
+      "type": "text",
+      "title": "¿QUE ES?",
+      "content": "La otoscopia es un examen veterinario que permite visualizar el interior del oído de tu perro o gato. A través de un instrumento especial llamado otoscopio, el veterinario puede examinar el conducto auditivo, el tímpano y detectar cualquier anomalía."
+    },
+    {
+      "type": "text",
+      "title": "¿COMO FUNCIONA?",
+      "content": "La otoscopia es un procedimiento sencillo y rápido. El veterinario introduce el otoscopio dentro del canal auditivo de tu mascota para poder visualizar el interior del mismo. Esto le permite evaluar las condiciones del canal auditivo externo y la membrana timpánica como así también la presencia de exudados, cuerpos extraños o tumores."
+    },
+    {
+      "type": "list",
+      "title": "¿PARA QUE SE UTILIZA?",
+      "items": [
+        {
+          "subtitle": "Diagnóstico temprano:",
+          "text": "Permite identificar a tiempo problemas como otitis (inflamación del oído), cuerpos extraños, tumores o infecciones."
+        },
+        {
+          "subtitle": "Tratamiento adecuado:",
+          "text": "Al identificar el problema, el veterinario podrá prescribir el tratamiento más efectivo."
+        },
+        {
+          "subtitle": "Prevención de complicaciones:",
+          "text": "La detección temprana de problemas en los oídos puede evitar complicaciones más graves."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "¿SE REALIZA BAJO ANESTESIA?",
+      "content": "Por lo general es un procedimiento rápido que se realiza con el paciente despierto. En casos que el paciente se encuentre cursando con mucho dolor puede requerir anestesia."
+    }
+  ]
+}
+

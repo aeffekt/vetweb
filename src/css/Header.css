@@ -1,7 +1,7 @@
 .header{
     padding: 40px;    
     user-select: none;
-    background-color: rgb(20, 74, 112);
+    background-color: rgba(20, 74, 112, 1);
 }
 
 .name-img {

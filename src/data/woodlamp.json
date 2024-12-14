@@ -1,0 +1,56 @@
+{
+  "title": "LAMPARA DE WOOD",
+  "sections": [
+    {
+      "type": "header",
+      "content": "LAMPARA DE WOOD"
+    },
+    {
+      "type": "text",
+      "title": "¿QUE ES?",
+      "content": "Es una lámpara que al alumbrar sobre la piel de tu mascota, permite evidenciar alteraciones dermatológicas."
+    },
+    {
+      "type": "text",
+      "title": "¿COMO FUNCIONA?",
+      "content": "El veterinario oscurecerá la habitación y pasará la lámpara sobre la piel de tu mascota. Si hay alguna sustancia que reacciona a la luz, se verá un brillo de color."
+    },
+    {
+      "type": "list",
+      "title": "¿PARA QUE SE UTILIZA?",
+      "items": [
+        {
+          "subtitle": "Detectar hongos:",
+          "text": "Muchos hongos que causan problemas en la piel de los perros y gatos brillan bajo esta luz, ayudando a diagnosticar enfermedades como la tiña."
+        },
+        {
+          "subtitle": "Identificar descamación:",
+          "text": "En algunos casos, los procesos seborreicos pueden ser sutiles y resultan ser evidenciados."
+        },
+        {
+          "subtitle": "Verificar pigmentos:",
+          "text": "La lámpara de Wood puede ayudar a identificar cambios en la pigmentación de la piel que podrían indicar algún problema."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "¿CUALES SON LOS BENEFICIOS?",
+      "items": [
+        {
+          "subtitle": "Diagnóstico rápido:",
+          "text": "Ayuda a identificar rápidamente la causa de problemas de piel."
+        },
+        {
+          "subtitle": "Tratamiento adecuado:",
+          "text": "Al conocer la causa, el veterinario puede recetar el tratamiento más efectivo."
+        },
+        {
+          "subtitle": "Evita tratamientos innecesarios:",
+          "text": "Al tener un diagnóstico preciso, se evitan tratamientos que podrían no ser efectivos."
+        }
+      ]
+    }
+  ]
+}
+

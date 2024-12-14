@@ -1,0 +1,46 @@
+{
+    "title": "CONSULTAS DERMATOLOGICAS",
+    "sections": [
+      {
+        "type": "header",
+        "content": "CONSULTAS DERMATOLOGICAS"
+      },
+      {
+        "type": "text",
+        "title": "¿QUE ES?",
+        "content": "Una consulta dermatológica es una visita al veterinario especializada en el cuidado de la piel, el pelo y las uñas de nuestros perros y gatos. A diferencia de una consulta general, en esta se profundiza en el diagnóstico y tratamiento de enfermedades cutáneas."
+      },
+      {
+        "type": "text",
+        "title": "¿EN QUE CONSISTE?",
+        "content": "La consulta dermatológica se compone de 5 pasos:"
+      },
+      {
+        "type": "numbered-list",
+        "items": [
+          {
+            "title": "Historia clínica detallada:",
+            "content": "El veterinario te hará preguntas sobre la salud de tu mascota, sus hábitos, alimentación, y los síntomas que ha presentado a lo largo de su vida, estudios y tratamientos realizados anteriormente."
+          },
+          {
+            "title": "Examen físico completo:",
+            "content": "Se realizará un examen exhaustivo de la piel, el pelo y las uñas de tu mascota, incluyendo una observación detallada de las lesiones presentes."
+          },
+          {
+            "title": "Pruebas complementarias:",
+            "content": "Dependiendo del caso, pueden ser necesarias pruebas adicionales como: un estudio citológico, raspaje cutáneo, cultivo micológico o bacteriano, test de alergia, análisis de sangre o biopsia cutánea."
+          },
+          {
+            "title": "Diagnóstico:",
+            "content": "Con base en la información recopilada y los resultados de las pruebas, el veterinario establecerá un diagnóstico preciso de la afección de tu mascota."
+          },
+          {
+            "title": "Plan de tratamiento:",
+            "content": "Se elaborará un plan de tratamiento personalizado a la afección dermatológica y a tu mascota. Todos los pasos a seguir son entregados en un informe detallado."
+          }
+        ]
+      }
+    ]
+  }
+  
+  

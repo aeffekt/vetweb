@@ -1,0 +1,57 @@
+{
+    "title": "ESTUDIOS CITOLOGICOS",
+    "sections": [
+      {
+        "type": "header",
+        "content": "ESTUDIOS CITOLOGICOS"
+      },
+      {
+        "type": "text",
+        "title": "¿QUE ES?",
+        "content": "Consiste en pruebas complementarias que permiten analizar las células de la piel de tu mascota a través de un microscopio."
+      },
+      {
+        "type": "text",
+        "title": "¿COMO FUNCIONA?",
+        "content": "Se obtiene una pequeña muestra de la piel afectada, se coloca en un portaobjetos y se tiñe para facilitar su observación al microscopio. Un veterinario especializado analiza las células y busca signos de infección, inflamación o enfermedades de la piel."
+      },
+      {
+        "type": "list",
+        "title": "¿POR QUÉ ES IMPORTANTE?",
+        "items": [
+          {
+            "subtitle": "Diagnóstico preciso:",
+            "text": "Ayuda a identificar la causa exacta del problema cutáneo de tu mascota."
+          },
+          {
+            "subtitle": "Tratamiento adecuado:",
+            "text": "Permite elegir el tratamiento más efectivo para cada caso."
+          },
+          {
+            "subtitle": "Prevención:",
+            "text": "Ayuda a detectar enfermedades en etapas tempranas y prevenir complicaciones."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "¿CUÁLES SON LOS BENEFICIOS?",
+        "items": [
+          {
+            "subtitle": "Rápido y sencillo:",
+            "text": "Los resultados están listos en 24 hs."
+          },
+          {
+            "subtitle": "Poco invasivo:",
+            "text": "Se trata de una prueba mínimamente invasiva que no requiere anestesia."
+          },
+          {
+            "subtitle": "Alta precisión:",
+            "text": "Es una prueba muy confiable para detectar distintos problemas dermatológicos."
+          }
+        ]
+      }
+    ]
+  }
+  
+  
