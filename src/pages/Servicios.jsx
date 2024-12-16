@@ -19,8 +19,7 @@ const contentData = [
 
 function Servicios() {
     return (
-        <Layout>      
-            <CarouselServicio />   
+        <Layout>            
             <Container maxWidth="sm" 
                 sx={{ 
                     py: 4, 
@@ -33,6 +32,7 @@ function Servicios() {
                     </React.Fragment>
                 ))}
             </Container>
+            <CarouselServicio />   
         </Layout>        
     )
 }

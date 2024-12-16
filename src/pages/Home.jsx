@@ -46,8 +46,7 @@ function Home() {
                         />
                     </a>
                 </div>
-            </section>
-            
+            </section>            
             <Carousel></Carousel>
         </Layout>        
     )

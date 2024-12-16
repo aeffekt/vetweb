@@ -1,18 +1,41 @@
 import { Link } from 'react-router-dom';
-import '../css/Navbar.css'
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+
+
+const navItems = [
+    { label: 'Home', path: '/' },
+    { label: 'Servicios', path: '/servicios' },
+    { label: 'Quienes Somos', path: '/QuienesSomos' },
+	{ label: 'Preguntas Frecuentes', path: '/preguntas-frecuentes' }
+];
+
 
 function Navbar() {
-  return (
-    <nav className='navbar-container'>
-      <ul className='ul-navbar'>
-        <li><Link to="/home" className='active'>Home</Link></li>
-        <li><Link to="/servicios">Servicios</Link></li>
-        <li><Link to="/quienes-somos">Quienes Somos</Link></li>
-        <li><Link to="/forma-de-trabajo">Forma de trabajo</Link></li>        
-        <li><Link to="/preguntas">Preguntas Frecuentes</Link></li>                                 
-      </ul>
-    </nav>      
-  )
+    return (
+        <nav className="navbar-container">
+            <List
+                sx={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    padding: 0,
+                }}
+            >
+                {navItems.map((item) => (
+                    <ListItem key={item.label} disablePadding>
+                        <ListItemButton
+                            component={Link}
+                            to={item.path}
+                            sx={{ textAlign: 'center' }}>
+                            <ListItemText primary={item.label} />
+                        </ListItemButton>
+                    </ListItem>
+                ))}
+            </List>
+        </nav>
+    );
 }
 
-export default Navbar
+export default Navbar;
