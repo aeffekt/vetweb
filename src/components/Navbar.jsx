@@ -9,7 +9,8 @@ const navItems = [
     { label: 'Home', path: '/' },
     { label: 'Servicios', path: '/servicios' },
     { label: 'Quienes Somos', path: '/QuienesSomos' },
-	{ label: 'Preguntas Frecuentes', path: '/preguntas-frecuentes' }
+	{ label: 'Preguntas Frecuentes', path: '/preguntas-frecuentes' },
+    { label: 'Contacto', path: '/Contacto' },
 ];
 
 

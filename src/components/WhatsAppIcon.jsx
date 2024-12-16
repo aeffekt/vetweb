@@ -6,7 +6,7 @@ function WhatsAppIcon() {
 
   return (
       <FloatingWhatsApp  
-        phoneNumber='+54 9 3512 17-2630'
+        phoneNumber='+54 9 351 217-2630'
         accountName='Veterinaria NEFRONCOVET'
         chatMessage="Hola! Escribe un mensaje y envíalo por whatsapp"
         statusMessage=""
