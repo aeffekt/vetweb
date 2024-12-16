@@ -1,5 +1,6 @@
 import React from 'react'
 import aalogo from '../images/aaicon.png'
+import '../css/aa.css'
 
 function AAmarca() {
   return (
