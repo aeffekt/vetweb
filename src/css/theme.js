@@ -3,12 +3,12 @@ import { createTheme } from "@mui/material";
 
 
 const theme = createTheme({
-    palettle: {
+    palette: {
       primary:{
-        main:"#013e87",
+        main:"#144a70",
       },      
       secondary: {
-        main:"#2e74c9",
+        main:"#206291",
       },
       error: {
         main: red.A400,

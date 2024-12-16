@@ -35,11 +35,7 @@ body {
   color: var(--alternative);
   font-size: 1.1em;
   scroll-behavior: smooth;
-  background-image: linear-gradient(to bottom right, rgb(237, 245, 248), rgb(223, 223, 223));
-  font-family: "Mulish", sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  
 }
 
 #layout-content {  
@@ -48,15 +44,6 @@ body {
 
 h1 {
   font-size: 3.2em;
-}
-
-.primary-color {
-  color: var(--primary-color);
-}
-
-
-.secondary-color {
-  color: var(--secondary-color);
 }
 
 .no-decoration {
