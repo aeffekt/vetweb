@@ -4,13 +4,13 @@ import { Typography, Box, Link } from '@mui/material';
 import { WhatsApp } from '@mui/icons-material';
 
 function Contact() {
-  const whatsappMessage = "Hola! Me gustaría obtener más información sobre los servicios.";
+  const whatsappMessage = "Hola! Quisiera coordinar una consulta dermatologica.";
 
   return (
     <Layout>
       <Box sx={{ textAlign: 'center', maxWidth: 600, margin: '0 auto', padding: 4, backgroundColor: '#f9f9f9', borderRadius: 2, boxShadow: 3 }}>
         <Typography variant="h4" gutterBottom sx={{ backgroundColor: 'primary.main', color: 'white', padding: '10px 20px', borderRadius: 1 }}>
-          CONTACTÁNOS
+          CONTACTO
         </Typography>
 
         {/* Horario */}
@@ -40,10 +40,7 @@ function Contact() {
         </Box>
 
         {/* WhatsApp - Agenda una cita */}
-        <Box>
-          <Typography variant="h6" sx={{ backgroundColor: 'secondary.main', color: 'white', padding: '8px', borderRadius: 1, marginBottom: 1 }}>
-            AGENDA UNA CITA
-          </Typography>
+        <Box>          
           <Link 
             href={`https://api.whatsapp.com/send?phone=+54%209%20351%20217-2630&text=${encodeURIComponent(whatsappMessage)}`} 
             target="_blank"
@@ -52,7 +49,7 @@ function Contact() {
               alignItems: 'center', 
               justifyContent: 'center',
               textDecoration: 'none',
-              color: 'inherit',
+              color: 'primary.dark',
               marginTop: 2,
               backgroundColor: '#25d366',  // Color WhatsApp
               padding: '8px 16px',

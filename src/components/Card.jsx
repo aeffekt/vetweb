@@ -13,7 +13,7 @@ function Card(props) {
           
           transition: 'transform 0.3s ease', // Agrega transición suave
           '&:hover': {
-            transform: 'scale(1.1)', // Agranda la imagen al 10% cuando hover
+            transform: 'scale(1.2)', // Agranda la imagen al 10% cuando hover
           },
         }}
       />

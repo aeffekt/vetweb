@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Layout from './Layout';
 import Card from '../components/Card';
 import Carousel from '../components/Carousel';
-import { Box, Typography, Stack } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 import Perro from '../images/consulta2.jpg';
 import Maps from '../images/dire_maps.jpg';
 import Turno from '../images/turno.jpg';
@@ -14,7 +14,7 @@ function Home() {
       description: "Ver todos los servicios que ofrecemos",
       src: Perro,
       link: "/servicios",
-      isExternal: false,
+      isExternal: true,
     },
     {
       title: "Ubicación",
@@ -38,10 +38,10 @@ function Home() {
 
         {/* Stack para hacer los cards responsivos */}
         <Stack
-          direction={{ xs: 'column', sm: 'row' }}
-          spacing={2}
-          justifyContent="center"
-          alignItems="center"
+			direction={{ xs: 'column', sm: 'row' }}
+			spacing={2}
+			justifyContent="center"
+			alignItems="center"
         >
           {cardData.map((card, index) => (
             <Box key={index} sx={{ width: { xs: '100%', sm: '30%' } }}>

@@ -10,8 +10,8 @@ import woodlampContent from "../data/woodlamp.json"
 import otoscopyContent from "../data/otoscopy.json"
 
 const contentData = [
-    { type: 'allergy', data: allergyContent },
     { type: 'dermatology', data: dermatologyContent },
+    { type: 'allergy', data: allergyContent },    
     { type: 'cytology', data: cytologyContent },
     { type: 'otoscopy', data: otoscopyContent },
     { type: 'woodlamp', data: woodlampContent },
@@ -20,10 +20,9 @@ const contentData = [
 function Servicios() {
     return (
         <Layout>            
-            <Container maxWidth="sm" 
+            <Container maxWidth="lg" 
                 sx={{ 
-                    py: 4, 
-                    
+                    py: 4,                     
                 }}>
                 {contentData.map((item, index) => (
                     <React.Fragment key={item.type}>
