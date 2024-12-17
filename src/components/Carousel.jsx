@@ -1,10 +1,10 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Card, CardMedia, CardContent, Typography } from '@mui/material';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { Card, CardMedia, CardContent, Typography } from '@mui/material';
 import data from '../data/servicios.json';
 
 const Carousel = () => {   
@@ -33,6 +33,13 @@ const Carousel = () => {
                             height="300"
                             image={new URL(slide.image, import.meta.url).href}
                             alt={`Image for ${slide.title}`}
+                            sx={{
+                                filter: 'hue-rotate(350deg) saturate(60%)',
+                                transition: 'transform 5s ease', 
+                                '&:hover': {                                    
+                                    filter: 'none',                                    
+                                },
+                            }}
                         />
                         <CardContent>
                             <Typography variant="h5">{slide.title}</Typography>                            

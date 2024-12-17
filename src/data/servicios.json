@@ -5,38 +5,38 @@
             "title": "Test de alergia",
             "content":
                 "Descripción servicio 1.",
-            "image":"/images/servicio1.jpg"
+            "image":"/images/lab/servicio1.jpg"
             
         },
         {
-            "title": "Citología",
+            "title": "Citología Dermatológica",
             "content":
                 "Descripción servicio 2.",
-            "image":"/images/servicio2.jpg"
+            "image":"/images/lab/servicio2.jpg"
         },
         {
             "title": "Histopatología",
             "content":
                 "Descripción servicio 3.",
-            "image":"/images/servicio3.jpg"
+            "image":"/images/lab/servicio3.jpg"
         },
         {
             "title": "Lámpara de Wood",
             "content":
                 "Descripción servicio 4.",
-            "image":"/images/servicio4.jpg"
+            "image":"/images/lab/servicio4.jpg"
         },
         {
             "title": "Otoscopía",
             "content":
                 "Descripción servicio 5.",
-            "image":"/images/servicio5.jpg"
+            "image":"/images/lab/servicio5.jpg"
         },
         {
             "title": "Micología",
             "content":
                 "Descripción servicio 6.",
-            "image":"/images/servicio6.jpg"
+            "image":"/images/lab/servicio6.jpg"
         }
     ]
 }

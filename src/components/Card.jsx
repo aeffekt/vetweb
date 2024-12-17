@@ -10,10 +10,11 @@ function Card(props) {
         image={props.src}
         alt="Image"
         sx={{
-          
+          filter: 'hue-rotate(350deg) saturate(30%)',
           transition: 'transform 0.3s ease', // Agrega transición suave
           '&:hover': {
-            transform: 'scale(1.2)', // Agranda la imagen al 10% cuando hover
+            transform: 'scale(1.15)', // Agranda la imagen al 10% cuando hover
+            filter: 'none',
           },
         }}
       />
