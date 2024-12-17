@@ -1,0 +1,52 @@
+{
+    "title": "HISTOPATOLOGIA",
+    "sections": [
+      {
+        "type": "header",
+        "content": "HISTOPATOLOGIA"
+      },
+      {
+        "type": "text",
+        "title": "¿QUE ES?",
+        "content": "El estudio histopatológico es un examen de laboratorio que analiza una pequeña muestra de piel bajo un microscopio para encontrar la causa de una enfermedad cutánea. La muestra se obtiene mediante una biopsia en la cual se extrae un porción de piel que incluye el sector o punch de biopsia. Este procedimiento se realiza con anestesia local combinada con una sedación para que tu mascota no sienta ninguna molestia."
+      },
+      {
+        "type": "list",
+        "title": "¿PARA QUE SIRVE?",
+        "items": [
+          {
+            "subtitle": "Diagnóstico preciso:",
+            "text": "Permite identificar con exactitud el tipo de enfermedad cutánea que afecta a tu mascota."
+          },
+          {
+            "subtitle": "Tratamiento personalizado:",
+            "text": "Gracias al diagnóstico preciso el veterinario puede recomendar el tratamiento más adecuado para cada caso."
+          },
+          {
+            "subtitle": "Pronóstico:",
+            "text": "Ayuda a determinar la evolución de la enfermedad y las posibilidades de curación."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "¿CUANDO SE RECOMIENDA REALIZAR?",
+        "items": [
+          {
+            "subtitle": "Enfermedades crónicas o recurrentes:",
+            "text": "Cuando los tratamientos convencionales no son efectivos."
+          },
+          {
+            "subtitle": "Tumores de piel:",
+            "text": "Para determinar si son benignos o malignos."
+          },
+          {
+            "subtitle": "Enfermedades autoinmunes:",
+            "text": "Para confirmar el diagnóstico, la biopsia es fundamental para descartar la presencia de hongos o bacterias."
+          }
+        ]
+      }
+    ]
+  }
+  
+  

@@ -1,0 +1,26 @@
+{
+    "title": "INMUNOTERAPIA",
+    "sections": [
+      {
+        "type": "header",
+        "content": "INMUNOTERAPIA"
+      },
+      {
+        "type": "text",
+        "title": "¿QUE ES?",
+        "content": "La inmunoterapia alergeno-específica (IAT) es un tratamiento para perros que sufren de alergias en el cual se expone al paciente a pequeñas cantidades de los alérgenos que causan sus síntomas, lo que ayuda a su sistema inmunológico a desarrollar tolerancia y reducir la respuesta alérgica. Es el único tratamiento capaz de cambiar el curso natural de una alergia. Esto quiere decir que la inmunoterapia puede reducir el grado de alergia o incluso curar la misma."
+      },
+      {
+        "type": "text",
+        "title": "¿COMO SE ADMINISTRA?",
+        "content": "La IAT se administra mediante inyecciones subcutáneas regulares. Las inyecciones contienen extractos de los alérgenos a los que tu mascota es alérgica, estos son seleccionados de manera individual en base a resultados de la prueba de alergia Prick Test. A medida que su mascota recibe las inyecciones su sistema inmunológico se adapta a los alérgenos y comienza a producir anticuerpos que bloquean la respuesta alérgica."
+      },
+      {
+        "type": "text",
+        "title": "¿CUANDO SE RECOMIENDA UTILIZAR?",
+        "content": "Esta terapia puede ser aplicada en todo perro alérgico que tenga entre 6 meses y 10 años de edad. En forma previa debe haberse realizado un test de alergia."
+      }
+    ]
+  }
+  
+  

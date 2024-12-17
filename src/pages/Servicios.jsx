@@ -8,13 +8,18 @@ import dermatologyContent from "../data/dermatology.json"
 import cytologyContent from "../data/cytology.json"
 import woodlampContent from "../data/woodlamp.json"
 import otoscopyContent from "../data/otoscopy.json"
+import histopatologyContent from "../data/histopatology.json"
+import inmunoterapyContent from "../data/inmunoterapy.json"
 
 const contentData = [
     { type: 'dermatology', data: dermatologyContent },
     { type: 'allergy', data: allergyContent },    
     { type: 'cytology', data: cytologyContent },
-    { type: 'otoscopy', data: otoscopyContent },
     { type: 'woodlamp', data: woodlampContent },
+    { type: 'otoscopy', data: otoscopyContent },
+    { type: 'histopatology', data: histopatologyContent },
+    { type: 'inmunoterapy', data: inmunoterapyContent },
+    
 ];
 
 function Servicios() {
