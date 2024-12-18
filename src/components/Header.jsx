@@ -8,7 +8,7 @@ function Header() {
         <AppBar position="static" 
             sx={{ 
                 backgroundColor: 'primary.main', p: 2, 
-                backgroundImage: "url('/images/background.png')",
+                backgroundImage: "url('/images/b1.png')",
                 backgroundSize: 'cover', // Ajusta el tamaño de la imagen para cubrir todo el espacio
                 backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
                 backgroundPosition: 'center', // Centra la imagen
@@ -26,14 +26,12 @@ function Header() {
                                  
                     <img
                         decoding="async"
-                        src="/images/logo_dac.png"
+                        src="/images/l1.png"
                         alt="Logo DAC"
                         style={{ 
-                            height: '200px',
-                            
+                            height: '200px',                            
                         }}
-                    />                    
-                   
+                    />                                       
                 </Box>
             </Toolbar>
         </AppBar>

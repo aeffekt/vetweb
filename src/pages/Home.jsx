@@ -3,30 +3,28 @@ import Layout from './Layout';
 import Card from '../components/Card';
 import Carousel from '../components/Carousel';
 import { Box, Stack } from '@mui/material';
-import Perro from '../images/consulta2.jpg';
-import Maps from '../images/dire_maps.jpg';
-import Turno from '../images/turno.jpg';
+
 
 function Home() {
   const cardData = [
     {
       title: "Servicios",
-      description: "Ver todos los servicios que ofrecemos",
-      src: Perro,
+      content: "Ver todos los servicios que ofrecemos",
+      image: '/images/1.jpg',
       link: "/servicios",
-      isExternal: true,
+      isExternal: false,
     },
     {
       title: "Ubicación",
-      description: "Donde nos encuentra",
-      src: Maps,
+      content: "Donde nos encuentra",
+      image: '/images/3.jpg',
       link: "https://www.google.com/maps/place/Oncativo+320,+X5000+C%C3%B3rdoba",
       isExternal: true,
     },
     {
       title: "Turno",
-      description: "Reserva tu turno vía Whatsapp",
-      src: Turno,
+      content: "Reserva tu turno vía Whatsapp",
+      image: '/images/4.jpg',
       link: "https://api.whatsapp.com/send/?phone=+54%209%203512%2017-2630&text=Hola!%20me%20gustar%C3%ADa%20reservar%20un%20turno%20para%20mi%20mascota,%20saludos",
       isExternal: true,
     }
@@ -49,16 +47,16 @@ function Home() {
                 <a href={card.link} target="_blank" rel="noopener noreferrer" className="no-decoration">
                   <Card
                     title={card.title}
-                    description={card.description}
-                    src={card.src}
+                    description={card.content}
+                    src={card.image}
                   />
                 </a>
               ) : (
                 <Link to={card.link} className="no-decoration">
                   <Card
                     title={card.title}
-                    description={card.description}
-                    src={card.src}
+                    description={card.content}
+                    src={card.image}
                   />
                 </Link>
               )}

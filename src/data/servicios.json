@@ -2,41 +2,53 @@
     "title": "Servicios:",
     "rows": [
         {
-            "title": "Test de alergia",
-            "content":
-                "Descripción servicio 1.",
-            "image":"/images/lab/8.jpg"
+            "title": "Dermatología",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s1a.jpg",
+            "data":"../data/dermatology.json"
+        },
+        {
+            "title": "Test de alergia",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s2a.jpg",
+            "data":"../data/allergy.json"
             
         },
         {
-            "title": "Citología Dermatológica",
-            "content":
-                "Descripción servicio 2.",
-            "image":"/images/lab/19.jpg"
+            "title": "Citología Dermatológica",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s3a.jpg",
+            "data":"../data/cytology.json"
+        },        
+        {
+            "title": "Lámpara de Wood",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s4a.jpg",
+            "data":"../data/woodlamp.json"
         },
         {
-            "title": "Histopatología",
-            "content":
-                "Descripción servicio 3.",
-            "image":"/images/lab/20.jpg"
+            "title": "Otoscopía",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s5a.jpg",
+            "data":"../data/otoscopy.json"
         },
         {
-            "title": "Lámpara de Wood",
-            "content":
-                "Descripción servicio 4.",
-            "image":"/images/lab/13.jpg"
+            "title": "Histopatología",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s6a.jpg",
+            "data":"../data/histopatology.json"
         },
         {
-            "title": "Otoscopía",
-            "content":
-                "Descripción servicio 5.",
-            "image":"/images/lab/17.jpg"
+            "title": "Inmunoterapia",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s7a.jpg",
+            "data":"../data/inmunoterapy.json"
         },
         {
-            "title": "Micología",
-            "content":
-                "Descripción servicio 6.",
-            "image":"/images/lab/servicio6.jpg"
+            "title": "Micología",            
+            "link": "/Servicios/servicio",
+            "image":"/images/s8a.jpg",
+            "data":"../data/micological.json"
         }
     ]
 }

@@ -1,5 +1,4 @@
 import { Box, Typography, Divider, Link as MuiLink } from '@mui/material';
-import Logoinsta from '/images/instagramlogo.png';
 import AAmarca from './AAmarca';
 
 function Footer() {
@@ -14,13 +13,17 @@ function Footer() {
                 display: 'flex',
                 flexDirection: 'column',
                 gap: 2,
+                backgroundImage: "url('/images/b1.png')",
+                backgroundSize: 'cover', // Ajusta el tamaño de la imagen para cubrir todo el espacio
+                backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
+                backgroundPosition: 'center', // Centra la imagen
             }}
         >
             {/* Logo y datos principales */}
             <Box sx={{ mb: 2 }}>
                 <img
                     decoding="async"
-                    src="/images/logo_dac.png"
+                    src="/images/l1.png"
                     alt="Logo DAC"
                     style={{
                         maxWidth: '200px',
@@ -42,11 +45,10 @@ function Footer() {
                     target="_blank"
                     rel="noopener"
                     sx={{ color: 'inherit', textDecoration: 'none' }}
-                    title="Instagram"
-                >
+                    title="Instagram"                >
                     <img
                         decoding="async"
-                        src={Logoinsta}
+                        src="/images/i5.png"
                         alt="Instagram Logo"
                         style={{ width: '30px', height: 'auto', verticalAlign: 'middle' }}
                     />

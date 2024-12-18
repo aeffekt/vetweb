@@ -10,6 +10,7 @@ import woodlampContent from "../data/woodlamp.json"
 import otoscopyContent from "../data/otoscopy.json"
 import histopatologyContent from "../data/histopatology.json"
 import inmunoterapyContent from "../data/inmunoterapy.json"
+import micologicalContent from "../data/micological.json"
 
 const contentData = [
     { type: 'dermatology', data: dermatologyContent },
@@ -19,6 +20,7 @@ const contentData = [
     { type: 'otoscopy', data: otoscopyContent },
     { type: 'histopatology', data: histopatologyContent },
     { type: 'inmunoterapy', data: inmunoterapyContent },
+    { type: 'micological', data: micologicalContent },
     
 ];
 

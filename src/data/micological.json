@@ -1,0 +1,87 @@
+{
+  "title": "CULTIVO MICOLÓGICO",
+  "sections": [
+    {
+      "type": "header",
+      "content": "CULTIVO MICOLÓGICO"
+    },
+    {
+      "type": "text",
+      "title": "¿Qué es y por qué es importante para mi perro?",
+      "content": "¿Tu perro tiene picazón constante, zonas rojizas en la piel o pérdida de pelo? Estos podrían ser signos de una infección por hongos, específicamente por dermatofitos. Para confirmar este diagnóstico y determinar el mejor tratamiento, los veterinarios suelen realizar un cultivo micológico."
+    },
+    {
+      "type": "text",
+      "title": "¿Qué es un cultivo micológico?",
+      "content": "Mientras que examinamos una pequeña muestra de la piel de tu perro en un ambiente especial, como una pequeña granja para hongos. Si hay hongos presentes, comenzarán a crecer y multiplicarse, permitiéndonos identificarlos con precisión."
+    },
+    {
+      "type": "text",
+      "title": "¿Cómo se realiza?",
+      "content": "Toma de muestra: El veterinario rasura suavemente la zona afectada de la piel de tu perro para obtener una pequeña muestra. Esta muestra se coloca en un medio de cultivo especial, que es como un alimento para los hongos. El cultivo se coloca en un lugar cálido y húmedo para fomentar el crecimiento de los hongos. Después de unos días o semanas, se examinará el cultivo para identificar el tipo de hongo presente."
+    },
+    {
+      "type": "list",
+      "title": "¿Por qué es importante?",
+      "items": [
+        {
+          "subtitle": "Diagnóstico preciso:",
+          "text": "Permite confirmar si la infección es causada por un hongo y descartar otras posibles causas."
+        },
+        {
+          "subtitle": "Identificación del hongo:",
+          "text": "Conociendo el tipo de hongo, el veterinario podrá seleccionar el tratamiento antifúngico más adecuado."
+        },
+        {
+          "subtitle": "Prevención de infecciones:",
+          "text": "Al identificar el tipo de hongo, se pueden tomar medidas para evitar que se propague a otros animales o personas."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "¿Qué puedo esperar?",
+      "items": [
+        {
+          "subtitle": "Resultados:",
+          "text": "Los resultados del cultivo suelen tardar unos días o semanas."
+        },
+        {
+          "subtitle": "Tratamiento:",
+          "text": "Una vez que se confirme el diagnóstico, el veterinario te recomendará el tratamiento más adecuado, que puede incluir medicamentos tópicos u orales."
+        },
+        {
+          "subtitle": "Higiene:",
+          "text": "Es importante mantener una buena higiene en el hogar y en los objetos que hayan estado en contacto tu perro para evitar la propagación de los hongos."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Recuerda",
+      "content": "El cultivo micológico es una herramienta invaluable para el diagnóstico y tratamiento de las infecciones por hongos en perros. Si tu veterinario te recomienda este examen, no dudes en seguir sus indicaciones para obtener los mejores resultados."
+    },
+    {
+      "type": "images",
+      "title": "Imágenes del proceso",
+      "content": [
+        {
+          "src": "/images/lab/11.jpg",
+          "alt": "Toma de muestra para cultivo micológico"
+        },
+        {
+          "src": "/images/lab/12.jpg",
+          "alt": "Preparación del medio de cultivo"
+        },
+        {
+          "src": "/images/lab/14.jpg",
+          "alt": "Crecimiento de hongos en el cultivo"
+        },
+        {
+          "src": "/images/lab/15.jpg",
+          "alt": "Examen microscópico del cultivo"
+        }
+      ]
+    }
+  ]
+}
