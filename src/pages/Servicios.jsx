@@ -3,14 +3,14 @@ import { Container, Divider } from '@mui/material';
 import Layout from './Layout';
 import CarouselServicio from '../components/Carousel';
 import { PlantillaInfo } from '../components/PlantillaInfo'
-import allergyContent from "../data/allergy.json"
-import dermatologyContent from "../data/dermatology.json"
-import cytologyContent from "../data/cytology.json"
-import woodlampContent from "../data/woodlamp.json"
-import otoscopyContent from "../data/otoscopy.json"
-import histopatologyContent from "../data/histopatology.json"
-import inmunoterapyContent from "../data/inmunoterapy.json"
-import micologicalContent from "../data/micological.json"
+import allergyContent from "../data/servicio/allergy.json"
+import dermatologyContent from "../data/servicio/dermatology.json"
+import cytologyContent from "../data/servicio/cytology.json"
+import woodlampContent from "../data/servicio/woodlamp.json"
+import otoscopyContent from "../data/servicio/otoscopy.json"
+import histopatologyContent from "../data/servicio/histopatology.json"
+import inmunoterapyContent from "../data/servicio/inmunoterapy.json"
+import micologicalContent from "../data/servicio/micological.json"
 
 const contentData = [
     { type: 'dermatology', data: dermatologyContent },

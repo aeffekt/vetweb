@@ -1,10 +1,12 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import logo from '/images/i2.jpg';
+import { Box } from '@mui/material';
 
 
 function WhatsAppIcon() {
 
   return (
+    <Box>
       <FloatingWhatsApp  
         phoneNumber='+54 9 351 217-2630'
         accountName='Veterinaria NEFRONCOVET'
@@ -16,6 +18,7 @@ function WhatsAppIcon() {
         avatar={ logo }
         text="Hola! me gustaría reservar un turno para atender a mi mascota. Saludos!"    
       />
+    </Box>
   )
 }
 

@@ -1,0 +1,99 @@
+{
+  "sections": [
+    {
+      "type": "header",
+      "content": "Cómo aplicar crema sobre la piel de tu perro"
+    },
+    {
+      "type": "text",
+      "content": "La aplicación de crema sobre la piel de tu perro puede ser una tarea sencilla, pero es importante hacerlo correctamente para garantizar que el tratamiento sea efectivo y no cause molestias a tu mascota."
+    },
+    {
+      "type": "list",
+      "title": "Materiales necesarios",
+      "items": [
+        {
+          "subtitle": "Crema prescrita por el veterinario",
+          "text": "Específica para el tratamiento"
+        },
+        {
+          "subtitle": "Guantes desechables",
+          "text": "Opcional, para protección"
+        },
+        {
+          "subtitle": "Algodón o gasas",
+          "text": "Para limpieza"
+        },
+        {
+          "subtitle": "Toalla limpia",
+          "text": "Para secar el área"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "title": "Pasos a seguir",
+      "items": [
+        {
+          "title": "Prepara el entorno",
+          "content": "Encuentra un lugar tranquilo y bien iluminado donde puedas trabajar cómodamente con tu perro."
+        },
+        {
+          "title": "Prepara la crema",
+          "content": "Agita bien el frasco de crema para mezclar los ingredientes."
+        },
+        {
+          "title": "Limpia el área",
+          "content": "Si es necesario, lava suavemente el área afectada con agua tibia. Seca bien la piel con una toalla limpia."
+        },
+        {
+          "title": "Prepara el pelaje",
+          "content": "En caso de que tu mascota tenga pelos largos al rededor del área afectada, te recomendamos recortarlos para evitar que estos se aglomeren con la crema."
+        },
+        {
+          "title": "Protege tus manos",
+          "content": "Ponte guantes (opcional): Si prefieres, puedes ponerte guantes desechables para evitar el contacto directo con la crema ya que tu piel no necesita recibir el tratamiento."
+        },
+        {
+          "title": "Aplica la crema",
+          "content": "Coloca una pequeña cantidad de crema en la punta de tu dedo o en una gasa limpia."
+        },
+        {
+          "title": "Masajea suavemente",
+          "content": "Aplica la crema sobre el área afectada con movimientos circulares suaves. Asegúrate de cubrir toda la zona afectada y de masajear hasta que la crema se absorba por completo."
+        },
+        {
+          "title": "Limpia el exceso",
+          "content": "Si queda algún exceso de crema, límpialo suavemente con una gasa limpia."
+        },
+        {
+          "title": "Distrae a tu mascota",
+          "content": "Es importante que no se lama la crema para permitir la acción de la misma. Puedes hacerlo con juegos, comida o con un collar isabelino (cono). El tiempo estimado es de 10 minutos, luego de ese periodo puedes lavar la crema."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Consejos adicionales",
+      "items": [
+        {
+          "subtitle": "Sigue las instrucciones del veterinario",
+          "text": "La frecuencia de aplicación y la cantidad de crema variarán según la condición de tu perro y el tipo de crema prescrita."
+        },
+        {
+          "subtitle": "Mantén la crema fuera del alcance",
+          "text": "Algunas cremas pueden ser tóxicas si se ingieren."
+        },
+        {
+          "subtitle": "Recompensa a tu perro",
+          "text": "Si tu perro se muestra cooperativo durante la aplicación de la crema, recompénsalo con un premio o caricias."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Recuerda",
+      "content": "Si tienes alguna duda o preocupación sobre cómo aplicar crema a tu perro, consulta a tu veterinario."
+    }
+  ]
+}

@@ -21,6 +21,7 @@ function Footer() {
         >
             {/* Logo y datos principales */}
             <Box sx={{ mb: 2 }}>
+               
                 <img
                     decoding="async"
                     src="/images/l1.png"
@@ -31,6 +32,7 @@ function Footer() {
                         margin: '0 auto',
                     }}
                 />
+       
             </Box>
 
             <Typography variant="body1" component="p">
@@ -57,7 +59,7 @@ function Footer() {
 
             <Typography variant="caption" component="small" sx={{ fontStyle: 'italic' }}>
                 Córdoba - Argentina
-            </Typography>
+            </Typography>            
 
             {/* Divider */}
             <Divider sx={{ my: 2, backgroundColor: 'secondary.main' }} />

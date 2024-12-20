@@ -16,7 +16,7 @@ function Home() {
     },
     {
       title: "Ubicación",
-      content: "Donde nos encuentra",
+      content: "Donde nos encuentra en maps",
       image: '/images/i11.png',
       link: "https://www.google.com/maps/place/Oncativo+320,+X5000+C%C3%B3rdoba",
       isExternal: true,
@@ -36,36 +36,74 @@ function Home() {
 
         {/* Stack para hacer los cards responsivos */}
         <Stack
-			direction={{ xs: 'column', sm: 'row' }}
-			spacing={2}
-			justifyContent="center"
-			alignItems="center"
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={2}
+          justifyContent="center"          
         >
           {cardData.map((card, index) => (
-            <Box key={index} sx={{ width: { xs: '100%', sm: '30%' } }}>
-              {card.isExternal ? (
-                <a href={card.link} target="_blank" rel="noopener noreferrer" className="no-decoration">
-                  <Card
-                    title={card.title}
-                    description={card.content}
-                    src={card.image}
-                  />
-                </a>
-              ) : (
-                <Link to={card.link} className="no-decoration">
-                  <Card
-                    title={card.title}
-                    description={card.content}
-                    src={card.image}
-                  />
-                </Link>
-              )}
-            </Box>
+                <Box key={index} sx={{ width: { xs: '100%', sm: '30%' } }}>
+                  {card.isExternal ? (
+                    <a href={card.link} target="_blank" rel="noopener noreferrer" className="no-decoration">
+                      <Card
+                        title={card.title}
+                        description={card.content}
+                        src={card.image}
+                      />
+                    </a>
+                  ) : (
+                    <Link to={card.link} className="no-decoration">
+                      <Card
+                        title={card.title}
+                        description={card.content}
+                        src={card.image}
+                      />
+                    </Link>
+                  )}
+                </Box>
           ))}
         </Stack>
       </Box>
 
-      <Carousel />
+      <a href="/servicios" className="no-decoration">
+        <Carousel />
+      </a>
+      
+      <Box sx={{ mt: 6 }}>               
+                <img
+                    decoding="async"
+                    src="/images/p1.jpg"
+                    alt="Imagen Perro"
+                    style={{
+                        width: 'auto',
+                        height: '300px',
+                        margin: '0 auto',
+
+                    }}
+                />
+                <img
+                    decoding="async"
+                    src="/images/s1b.jpg"
+                    alt="Imagen Gato"
+                    style={{
+                        width: 'auto',
+                        height: '300px',
+                        margin: '0 auto',
+
+                    }}
+                />
+                <img
+                    decoding="async"
+                    src="/images/p2.jpg"
+                    alt="Imagen Perro"
+                    style={{
+                        width: 'auto',
+                        height: '300px',
+                        margin: '0 auto',
+
+                    }}
+                />
+                
+            </Box>
     </Layout>
   );
 }

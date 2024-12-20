@@ -1,0 +1,71 @@
+{
+  "sections": [
+    {
+      "type": "header",
+      "content": "Cómo Aplicar Gotas para Otitis en los oídos de tu perro"
+    },
+    {
+      "type": "text",
+      "title": "¡Importante!",
+      "content": "Antes de comenzar cualquier tratamiento, siempre consulta a tu veterinario. Él podrá diagnosticar correctamente la otitis y recomendar el producto más adecuado para tu mascota."
+    },
+    {
+      "type": "list",
+      "title": "Materiales necesarios",
+      "items": [
+        {
+          "subtitle": "Gotas óticas prescritas por el veterinario",
+          "text": "Medicamento específico para el tratamiento"
+        },
+        {
+          "subtitle": "Gasas",
+          "text": "Para limpiar y secar"
+        },
+        {
+          "subtitle": "Toallas pequeñas",
+          "text": "Para mantener limpia el área"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "title": "Pasos a seguir",
+      "items": [
+        {
+          "title": "Prepara el entorno",
+          "content": "Encuentra un lugar tranquilo y bien iluminado donde tu perro se sienta seguro."
+        },
+        {
+          "title": "Aplicación de las gotas",
+          "content": "Agita bien el frasco de gotas óticas. Sujeta firmemente la cabeza de tu perro elevando el pabellón auricular. Aproxima la punta del gotero al conducto auditivo. Presiona suavemente el gotero para liberar la dosis indicada por el veterinario."
+        },
+        {
+          "title": "Masajea el área",
+          "content": "Masajea suavemente la base de la oreja durante unos segundos para asegurar que el líquido se distribuya por todo el conducto auditivo."
+        },
+        {
+          "title": "Mantén al perro quieto",
+          "content": "Evita que tu perro sacuda la cabeza vigorosamente inmediatamente después de la aplicación, ya que esto podría hacer que el líquido salga del oído."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Consejos adicionales",
+      "items": [
+        {
+          "subtitle": "Sé paciente",
+          "text": "Algunos perros pueden resistirse al procedimiento. Ofrécele premios o palabras de aliento para mantenerlo calmado."
+        },
+        {
+          "subtitle": "Sigue las instrucciones del veterinario",
+          "text": "La frecuencia de aplicación y la duración del tratamiento variarán según la gravedad de la otitis y el producto utilizado."
+        },
+        {
+          "subtitle": "Mantén la higiene",
+          "text": "Limpia el gotero después de cada uso para evitar contaminaciones."
+        }
+      ]
+    }
+  ]
+}

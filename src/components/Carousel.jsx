@@ -14,6 +14,17 @@ const Carousel = () => {
     };
 
     return (
+        <>
+        <Typography variant="h2" 
+                    sx={{ 
+                        backgroundColor:"secondary.dark", 
+                        color:'white',                        
+                        p: 2,
+                        width: 500,
+                        margin: '0 auto',
+                        mt: 5,                        
+                        }}>Servicios
+        </Typography>
         <Swiper style={carouselStyle}
             modules={[Navigation, Pagination, Autoplay]}
             navigation
@@ -27,6 +38,7 @@ const Carousel = () => {
         >
             {data.rows.map((slide, index) => (
                 <SwiperSlide key={index}>
+                    
                     <Card>
                         <CardMedia
                             component="img"
@@ -42,12 +54,13 @@ const Carousel = () => {
                             }}
                         />
                         <CardContent>
-                            <Typography variant="h5">{slide.title}</Typography>                            
+                            <Typography variant="h5">{slide.title}</Typography>
                         </CardContent>
                     </Card>
                 </SwiperSlide>
             ))}
         </Swiper>
+        </>
     );
 };
 

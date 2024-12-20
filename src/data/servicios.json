@@ -5,50 +5,50 @@
             "title": "Dermatología",            
             "link": "/Servicios/servicio",
             "image":"/images/s1b.jpg",
-            "data":"../data/dermatology.json"
+            "data":"../data/servicio/dermatology.json"
         },
         {
             "title": "Test de alergia",            
             "link": "/Servicios/servicio",
             "image":"/images/s2b.jpg",
-            "data":"../data/allergy.json"
+            "data":"../data/servicio/allergy.json"
             
         },
         {
             "title": "Citología Dermatológica",            
             "link": "/Servicios/servicio",
             "image":"/images/s3a.jpg",
-            "data":"../data/cytology.json"
+            "data":"../data/servicio/cytology.json"
         },        
         {
             "title": "Lámpara de Wood",            
             "link": "/Servicios/servicio",
             "image":"/images/s4a.jpg",
-            "data":"../data/woodlamp.json"
+            "data":"../data/servicio/woodlamp.json"
         },
         {
             "title": "Otoscopía",            
             "link": "/Servicios/servicio",
             "image":"/images/s5a.jpg",
-            "data":"../data/otoscopy.json"
+            "data":"../data/servicio/otoscopy.json"
         },
         {
             "title": "Histopatología",            
             "link": "/Servicios/servicio",
             "image":"/images/s6a.jpg",
-            "data":"../data/histopatology.json"
+            "data":"../data/servicio/histopatology.json"
         },
         {
             "title": "Inmunoterapia",            
             "link": "/Servicios/servicio",
             "image":"/images/s7a.jpg",
-            "data":"../data/inmunoterapy.json"
+            "data":"../data/servicio/inmunoterapy.json"
         },
         {
             "title": "Micología",            
             "link": "/Servicios/servicio",
             "image":"/images/s8a.jpg",
-            "data":"../data/micological.json"
+            "data":"../data/servicio/micological.json"
         }
     ]
 }

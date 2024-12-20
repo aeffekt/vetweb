@@ -1,0 +1,83 @@
+{
+  "sections": [
+    {
+      "type": "header",
+      "content": "Cómo aplicar loción humectante sobre la piel de tu perro"
+    },
+    {
+      "type": "text",
+      "content": "La aplicación de loción humectante sobre la piel de tu perro puede ser una tarea sencilla, pero es importante hacerlo correctamente para garantizar que el tratamiento sea efectivo y no cause molestias a tu mascota."
+    },
+    {
+      "type": "list",
+      "title": "Materiales necesarios",
+      "items": [
+        {
+          "subtitle": "Loción humectante prescrita por el veterinario",
+          "text": "Recuerda conservarla en un lugar fresco y al resguardo de la luz del sol."
+        },
+        {
+          "subtitle": "Guantes desechables",
+          "text": "Opcional, para protección durante la aplicación"
+        }
+      ]
+    },
+    {
+      "type": "numbered-list",
+      "title": "Pasos a seguir",
+      "items": [
+        {
+          "title": "Prepara el entorno",
+          "content": "Encuentra un lugar tranquilo y bien iluminado donde puedas trabajar cómodamente con tu perro."
+        },
+        {
+          "title": "Prepara la loción",
+          "content": "Agita bien el frasco de loción para mezclar los ingredientes."
+        },
+        {
+          "title": "Protección",
+          "content": "Ponte guantes (opcional): Si prefieres, puedes ponerte guantes desechables para evitar el contacto directo con la loción."
+        },
+        {
+          "title": "Aplica la loción",
+          "content": "Aplica la loción con el rociador en cantidad suficiente para garantizar el contacto del producto con la piel."
+        },
+        {
+          "title": "Masajea suavemente",
+          "content": "Masajea el área afectada con movimientos circulares suaves. Asegúrate de cubrir toda la zona afectada y de masajear hasta que la loción se absorba por completo."
+        },
+        {
+          "title": "Limpia el exceso",
+          "content": "Si queda algún exceso de loción, límpialo suavemente con una gasa limpia o toalla."
+        },
+        {
+          "title": "Distrae al perro",
+          "content": "Es importante evitar el lamido de la loción ya que si esta es removida no podrá cumplir la función para la cual fue indicada. Puedes distraer a tu mascota con juegos, comida o colocándole un collar isabelino (cono). El tiempo estimado es de 10 minutos."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Consejos adicionales",
+      "items": [
+        {
+          "subtitle": "Sigue las instrucciones del veterinario",
+          "text": "La frecuencia de aplicación y la cantidad de loción variarán según la condición de tu perro y el tipo de loción prescrita."
+        },
+        {
+          "subtitle": "Mantén la loción fuera del alcance",
+          "text": "Algunas lociones pueden ser tóxicas si se ingieren."
+        },
+        {
+          "subtitle": "Recompensa a tu perro",
+          "text": "Si tu perro se muestra cooperativo durante la aplicación de la loción, recompénsalo con un premio o caricias."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Recuerda",
+      "content": "Si tienes alguna duda o preocupación sobre cómo aplicar loción a tu perro, consulta a tu veterinario."
+    }
+  ]
+}

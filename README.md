@@ -8,6 +8,6 @@ npm i react-faq-component
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material
 npm install swiper
-npm i
+
 npm run dev
 

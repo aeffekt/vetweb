@@ -1,0 +1,115 @@
+{
+    "sections": [
+      {
+        "type": "header",
+        "content": "Cómo bañar a tu perro paso a paso"
+      },
+      {
+        "type": "text",
+        "title": "Preparativos",
+        "content": "Elige el lugar: Un baño o un espacio al aire libre con una manguera son buenas opciones. Asegúrate de que el suelo no sea resbaladizo para evitar accidentes."
+      },
+      {
+        "type": "list",
+        "title": "Materiales necesarios",
+        "items": [
+          {
+            "subtitle": "Champú y acondicionador para perros",
+            "text": "Específicos para mascotas"
+          },
+          {
+            "subtitle": "Toallas suaves",
+            "text": "Para el secado"
+          },
+          {
+            "subtitle": "Secador (opcional)",
+            "text": "Para usar a baja temperatura"
+          },
+          {
+            "subtitle": "Cepillo",
+            "text": "Para eliminar nudos"
+          },
+          {
+            "subtitle": "Golosinas",
+            "text": "Para premiar durante el proceso"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Preparación del perro",
+        "content": "Prepara a tu perro: Cepilla su pelaje para eliminar nudos y pelo suelto."
+      },
+      {
+        "type": "numbered-list",
+        "title": "Pasos",
+        "items": [
+          {
+            "title": "Moja a tu perro",
+            "content": "Empieza mojando y masajeando la piel y pelo suavemente sin colocar shampoo. Utiliza agua tibia, nunca caliente ni muy fría."
+          },
+          {
+            "title": "Aplica el shampoo",
+            "content": "Vierte una pequeña cantidad de champú en tu mano y masajea suavemente sobre el pelaje de tu perro, evitando los ojos y los oídos."
+          },
+          {
+            "title": "Limpia zonas específicas",
+            "content": "Presta especial atención a las zonas con más suciedad, como las patas, pliegues y cola."
+          },
+          {
+            "title": "Deja actuar la espuma",
+            "content": "Para permitir que el shampoo cumpla con su función es importante dejarlo actuar unos 5 minutos."
+          },
+          {
+            "title": "Enjuaga bien",
+            "content": "Utiliza abundante agua para eliminar todo el champú. Asegúrate de que no queden residuos, ya que pueden irritar la piel de tu perro."
+          },
+          {
+            "title": "Aplica el acondicionador",
+            "content": "Si el pelaje de tu perro es largo o su piel se encuentra seca, aplica acondicionador y déjalo actuar durante unos minutos antes de enjuagar."
+          },
+          {
+            "title": "Seca a tu perro",
+            "content": "Utiliza toallas suaves para eliminar el exceso de agua. Evita friccionar la piel, debes ir masajeando desde la cabeza a la cola."
+          },
+          {
+            "title": "Usa el secador",
+            "content": "Si tienes un secador, úsalo a baja temperatura y mantenlo a una distancia segura para evitar quemar a tu perro."
+          },
+          {
+            "title": "Sacudida final",
+            "content": "Permite que tu perro se sacuda para eliminar el agua restante."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "Consejos adicionales",
+        "items": [
+          {
+            "subtitle": "Sé paciente",
+            "text": "A algunos perros no les gusta bañarse, así que sé paciente y tranquilízalo con palabras amables y caricias."
+          },
+          {
+            "subtitle": "Recompénsalo",
+            "text": "Ofrece a tu perro premios comestibles y elogios durante el baño para crear una experiencia positiva."
+          },
+          {
+            "subtitle": "Limpia sus oídos",
+            "text": "Utiliza una toallita húmeda para limpiar suavemente la parte exterior de los oídos. Evita introducir objetos, algodón o hisopo en el conducto auditivo."
+          },
+          {
+            "subtitle": "Corta sus uñas",
+            "text": "Si es necesario, corta las uñas de tu perro después del baño, ya que estarán más suaves."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "¡Recuerda!",
+        "content": "La frecuencia con la que debes bañar a tu perro dependerá de la necesidad de su piel y pelo. Consulta a tu veterinario para que pueda determinar que shampoo y frecuencia son ideales para tu mascota."
+      }
+    ]
+  }
+  
+  
