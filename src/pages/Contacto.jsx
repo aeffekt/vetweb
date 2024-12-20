@@ -8,7 +8,7 @@ function Contact() {
 
   return (
     <Layout>
-      <Box sx={{ textAlign: 'center', maxWidth: 600, margin: '0 auto', padding: 4, backgroundColor: '#f9f9f9', borderRadius: 2, boxShadow: 3 }}>
+      <Box sx={{ textAlign: 'center', maxWidth: 1000, margin: '0 auto', padding: 4, backgroundColor: 'secondary.light',borderRadius: 2, boxShadow: 3 }}>
         <Typography variant="h4" gutterBottom sx={{ backgroundColor: 'primary.main', color: 'white', padding: '10px 20px', borderRadius: 1 }}>
           CONTACTO
         </Typography>
@@ -18,7 +18,7 @@ function Contact() {
           <Typography variant="h6" sx={{ backgroundColor: 'secondary.main', color: 'white', padding: '8px', borderRadius: 1, marginBottom: 1 }}>
             HORARIO
           </Typography>
-          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#333' }}>
+          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#111' }}>
             Lunes a Viernes de 09:00 a.m. a 13:00 p.m.
           </Typography>
         </Box>
@@ -28,13 +28,13 @@ function Contact() {
           <Typography variant="h6" sx={{ backgroundColor: 'secondary.main', color: 'white', padding: '8px', borderRadius: 1, marginBottom: 1 }}>
             UBICACIÓN
           </Typography>
-          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#333' }}>
+          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#111' }}>
             <b>Clínica veterinaria Nefroncovet</b>
           </Typography>
-          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#333' }}>
+          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#111' }}>
             Oncativo 320
           </Typography>          
-          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#333' }}>
+          <Typography variant="body1" sx={{ fontSize: '1rem', color: '#111' }}>
             Córdoba Capital
           </Typography>
           <Box sx={{ marginBottom: 4, width: '100%', height: 300 }}>
