@@ -15,9 +15,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const navItems = [
 	{ label: 'Página principal', path: '/' },
-	{ label: 'Servicios', path: '/servicios' },
-	{ label: 'Quienes Somos', path: '/QuienesSomos' },
+	{ label: 'Servicios', path: '/servicios' },	
 	{ label: 'Tutoriales', path: '/tutoriales' },
+	{ label: 'Quienes Somos', path: '/QuienesSomos' },
 	{ label: 'Contacto', path: '/Contacto' },
 ];
 

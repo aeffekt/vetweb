@@ -1,6 +1,6 @@
 import { Card as MuiCard, CardContent, CardMedia, Typography } from '@mui/material';
 
-function Card(props) {
+function MyCard(props) {
   return (
     <MuiCard sx={{ 
                     maxWidth: 345, 
@@ -41,4 +41,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default MyCard;

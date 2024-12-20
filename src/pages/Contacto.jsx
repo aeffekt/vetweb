@@ -1,4 +1,4 @@
-import Layout from './Layout';
+import Layout from '../components/Layout';
 import React from 'react';
 import { Typography, Box, Link } from '@mui/material';
 import { WhatsApp } from '@mui/icons-material';
@@ -8,7 +8,7 @@ function Contact() {
 
   return (
     <Layout>
-      <Box sx={{ textAlign: 'center', maxWidth: 1000, margin: '0 auto', padding: 4, backgroundColor: 'secondary.light',borderRadius: 2, boxShadow: 3 }}>
+      <Box sx={{ textAlign: 'center', maxWidth: 1000, margin: '0 auto', padding: 4, backgroundColor: 'rgba(158, 189, 255, 0.1)',borderRadius: 2, boxShadow: 3 }}>
         <Typography variant="h4" gutterBottom sx={{ backgroundColor: 'primary.main', color: 'white', padding: '10px 20px', borderRadius: 1 }}>
           CONTACTO
         </Typography>

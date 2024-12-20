@@ -1,47 +1,67 @@
 import React from 'react';
-import { Container, Divider } from '@mui/material';
-import Layout from './Layout';
-import CarouselServicio from '../components/Carousel';
-import { PlantillaInfo } from '../components/PlantillaInfo'
-import allergyContent from "../data/servicio/allergy.json"
-import dermatologyContent from "../data/servicio/dermatology.json"
-import cytologyContent from "../data/servicio/cytology.json"
-import woodlampContent from "../data/servicio/woodlamp.json"
-import otoscopyContent from "../data/servicio/otoscopy.json"
-import histopatologyContent from "../data/servicio/histopatology.json"
-import inmunoterapyContent from "../data/servicio/inmunoterapy.json"
-import micologicalContent from "../data/servicio/micological.json"
+import { Box, Stack } from '@mui/material';
+import { Link } from 'react-router-dom';
+import Card  from '../components/MyCard';
+import Layout from '../components/Layout';
+import serviciosData from '../data/servicios.json';
 
-const contentData = [
-    { type: 'dermatology', data: dermatologyContent },
-    { type: 'allergy', data: allergyContent },    
-    { type: 'cytology', data: cytologyContent },
-    { type: 'woodlamp', data: woodlampContent },
-    { type: 'otoscopy', data: otoscopyContent },
-    { type: 'histopatology', data: histopatologyContent },
-    { type: 'inmunoterapy', data: inmunoterapyContent },
-    { type: 'micological', data: micologicalContent },
-    
-];
+// Import all service JSON files
+import dermatologiaData from '../data/servicio/dermatologia.json';
+import testAlergiaData from '../data/servicio/testalergia.json';
+import citologiaData from '../data/servicio/citologia.json';
+import lamparaWoodData from '../data/servicio/lamparawood.json';
+import otoscopiaData from '../data/servicio/otoscopia.json';
+import histopatologiaData from '../data/servicio/histopatologia.json';
+import inmunoterapiaData from '../data/servicio/inmunoterapia.json';
+import micologiaData from '../data/servicio/micologia.json';
+
+const serviceDataMap = {
+  dermatologia: dermatologiaData,
+  testalergia: testAlergiaData,
+  citologia: citologiaData,
+  lamparawood: lamparaWoodData,
+  otoscopia: otoscopiaData,
+  histopatologia: histopatologiaData,
+  inmunoterapia: inmunoterapiaData,
+  micologia: micologiaData
+};
 
 function Servicios() {
-    return (
-        <Layout>            
-            <Container maxWidth="lg" 
+  return (
+    <Layout>
+      <Box sx={{ py: 2 }}>       
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={2}
+          justifyContent="center"
+          flexWrap="wrap"
+        >
+          {serviciosData.rows.map((servicio, index) => {
+            const serviceType = servicio.link.split('/').pop();
+            const serviceData = serviceDataMap[serviceType];
+            
+            return (
+              <Box key={index} 
                 sx={{ 
-                    py: 4,                     
-                }}>
-                {contentData.map((item, index) => (
-                    <React.Fragment key={item.type}>
-                        <PlantillaInfo content={item.data} />
-                        {index < contentData.length - 1 && <Divider sx={{ my: 3 }} />}
-                    </React.Fragment>
-                ))}
-            </Container>
-            <CarouselServicio />   
-        </Layout>        
-    )
+                  width: { xs: '100%', sm: '30%', md: '23%' }, 
+                  pb: 4                  
+                  }}
+                >
+                <Link to={servicio.link} className="no-decoration" state={{ serviceData }}>
+                  <Card
+                    title={servicio.title}
+                    description={servicio.description || ""}
+                    src={servicio.image}
+                  />
+                </Link>
+              </Box>
+            );
+          })}
+        </Stack>
+      </Box>
+    </Layout>
+  );
 }
 
-export default Servicios
+export default Servicios;
 

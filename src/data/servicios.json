@@ -15,7 +15,7 @@
             
         },
         {
-            "title": "Citología Dermatológica",            
+            "title": "Citología",            
             "link": "/Servicios/servicio",
             "image":"/images/s3a.jpg",
             "data":"../data/servicio/cytology.json"

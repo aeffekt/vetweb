@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Divider } from '@mui/material';
-import Layout from './Layout';
+import Layout from '../components/Layout';
 import { PlantillaInfo } from '../components/PlantillaInfo'
 
 import baño from "../data/tutorial/baño-perro.json"

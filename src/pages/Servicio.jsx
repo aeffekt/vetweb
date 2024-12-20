@@ -8,6 +8,8 @@ import {
   Box,
   Paper
 } from '@mui/material'
+import Layout from '../components/Layout';
+
 
 const ContentSection = ({ section }) => {
   if (section.type === 'header') {
@@ -15,52 +17,55 @@ const ContentSection = ({ section }) => {
   }
 
   return (
-    <Box mb={2}>
-      <Typography variant="h6" gutterBottom>{section.title}</Typography>
-      {section.type === 'text' && (
-        <Typography variant="body1">
-          {section.content}
-        </Typography>
-      )}
-      {section.type === 'list' && (
-        <List>
-          {section.items.map((item, index) => (
-            <React.Fragment key={index}>
-              <ListItem>
+    <Layout>
+        <Box mb={2}>
+        <Typography variant="h6" gutterBottom>{section.title}</Typography>
+        {section.type === 'text' && (
+          <Typography variant="body1">
+            {section.content}
+          </Typography>
+        )}
+        {section.type === 'list' && (
+          <List>
+            {section.items.map((item, index) => (
+              <React.Fragment key={index}>
+                <ListItem>
+                  <ListItemText
+                    primary={<Typography variant="subtitle1">{item.subtitle}</Typography>}
+                    secondary={item.text}
+                  />
+                </ListItem>
+                {index < section.items.length - 1 && <Divider />}
+              </React.Fragment>
+            ))}
+          </List>
+        )}
+        {section.type === 'numbered-list' && (
+          <List>
+            {section.items.map((item, index) => (
+              <ListItem key={index}>
                 <ListItemText
-                  primary={<Typography variant="subtitle1">{item.subtitle}</Typography>}
-                  secondary={item.text}
+                  primary={
+                    <Typography variant="subtitle1">
+                      <Box component="span" mr={1} fontWeight="bold">
+                        {index + 1}.
+                      </Box>
+                      {item.title}
+                    </Typography>
+                  }
+                  secondary={item.content}
                 />
               </ListItem>
-              {index < section.items.length - 1 && <Divider />}
-            </React.Fragment>
-          ))}
-        </List>
-      )}
-      {section.type === 'numbered-list' && (
-        <List>
-          {section.items.map((item, index) => (
-            <ListItem key={index}>
-              <ListItemText
-                primary={
-                  <Typography variant="subtitle1">
-                    <Box component="span" mr={1} fontWeight="bold">
-                      {index + 1}.
-                    </Box>
-                    {item.title}
-                  </Typography>
-                }
-                secondary={item.content}
-              />
-            </ListItem>
-          ))}
-        </List>
-      )}
-    </Box>
+            ))}
+          </List>
+        )}
+      </Box>
+    </Layout>
+    
   );
 };
 
-export function Servicio({ content }) {
+function Servicio({ content }) {
   const headerSection = content.sections.find(section => section.type === 'header');
   const contentSections = content.sections.filter(section => section.type !== 'header');
 
@@ -88,3 +93,4 @@ export function Servicio({ content }) {
   );
 }
 
+export default Servicio;

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import Layout from './Layout';
-import Card from '../components/Card';
+import Layout from '../components/Layout';
+import Card from '../components/MyCard';
 import Carousel from '../components/Carousel';
 import { Box, Stack } from '@mui/material';
 
@@ -68,42 +68,43 @@ function Home() {
         <Carousel />
       </a>
       
-      <Box sx={{ mt: 6 }}>               
-                <img
-                    decoding="async"
-                    src="/images/p1.jpg"
-                    alt="Imagen Perro"
-                    style={{
-                        width: 'auto',
-                        height: '300px',
-                        margin: '0 auto',
+      <Box sx={{ mt: 6 }}>       
+        <a href="/tutoriales" title="Ir a tutoriales">
+          <img
+              decoding="async"
+              src="/images/p1.jpg"
+              alt="Imagen Perro"
+              style={{
+                  width: 'auto',
+                  height: '300px',
+                  margin: '0 auto',
 
-                    }}
-                />
-                <img
-                    decoding="async"
-                    src="/images/s1b.jpg"
-                    alt="Imagen Gato"
-                    style={{
-                        width: 'auto',
-                        height: '300px',
-                        margin: '0 auto',
+              }}
+          />
+          <img
+              decoding="async"
+              src="/images/s1b.jpg"
+              alt="Imagen Gato"
+              style={{
+                  width: 'auto',
+                  height: '300px',
+                  margin: '0 auto',
 
-                    }}
-                />
-                <img
-                    decoding="async"
-                    src="/images/p2.jpg"
-                    alt="Imagen Perro"
-                    style={{
-                        width: 'auto',
-                        height: '300px',
-                        margin: '0 auto',
+              }}
+          />
+          <img
+              decoding="async"
+              src="/images/p2.jpg"
+              alt="Imagen Perro"
+              style={{
+                  width: 'auto',
+                  height: '300px',
+                  margin: '0 auto',
 
-                    }}
-                />
-                
-            </Box>
+              }}
+          />
+        </a>    
+      </Box>
     </Layout>
   );
 }

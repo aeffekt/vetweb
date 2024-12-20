@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Container } from '@mui/material';
 import { Info } from '@mui/icons-material';
-import Layout from './Layout';
+import Layout from '../components/Layout';
 
 function QuienesSomos() {
   return (

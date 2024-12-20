@@ -1,7 +1,7 @@
-import Header from '../components/Header';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import WhatsAppIcon from '../components/WhatsAppIcon';
+import Header from './Header';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import WhatsAppIcon from './WhatsAppIcon';
 
 
 const Layout = ({ children }) => {
