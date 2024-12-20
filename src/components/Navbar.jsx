@@ -17,7 +17,7 @@ const navItems = [
 	{ label: 'Página principal', path: '/' },
 	{ label: 'Servicios', path: '/servicios' },
 	{ label: 'Quienes Somos', path: '/QuienesSomos' },
-	{ label: 'Preguntas Frecuentes', path: '/preguntas-frecuentes' },
+	{ label: 'Tutoriales', path: '/tutoriales' },
 	{ label: 'Contacto', path: '/Contacto' },
 ];
 

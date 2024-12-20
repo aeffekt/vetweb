@@ -4,13 +4,13 @@
         {
             "title": "Dermatología",            
             "link": "/Servicios/servicio",
-            "image":"/images/s1a.jpg",
+            "image":"/images/s1b.jpg",
             "data":"../data/dermatology.json"
         },
         {
             "title": "Test de alergia",            
             "link": "/Servicios/servicio",
-            "image":"/images/s2a.jpg",
+            "image":"/images/s2b.jpg",
             "data":"../data/allergy.json"
             
         },

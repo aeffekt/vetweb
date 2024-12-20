@@ -10,21 +10,21 @@ function Home() {
     {
       title: "Servicios",
       content: "Ver todos los servicios que ofrecemos",
-      image: '/images/1.jpg',
+      image: '/images/i10.png',
       link: "/servicios",
       isExternal: false,
     },
     {
       title: "Ubicación",
       content: "Donde nos encuentra",
-      image: '/images/3.jpg',
+      image: '/images/i11.png',
       link: "https://www.google.com/maps/place/Oncativo+320,+X5000+C%C3%B3rdoba",
       isExternal: true,
     },
     {
       title: "Turno",
       content: "Reserva tu turno vía Whatsapp",
-      image: '/images/4.jpg',
+      image: '/images/i9.png',
       link: "https://api.whatsapp.com/send/?phone=+54%209%203512%2017-2630&text=Hola!%20me%20gustar%C3%ADa%20reservar%20un%20turno%20para%20mi%20mascota,%20saludos",
       isExternal: true,
     }

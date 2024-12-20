@@ -2,15 +2,22 @@ import { Card as MuiCard, CardContent, CardMedia, Typography } from '@mui/materi
 
 function Card(props) {
   return (
-    <MuiCard sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3 }}>
+    <MuiCard sx={{ 
+                    maxWidth: 345, 
+                    borderRadius: 2, 
+                    boxShadow: 3, 
+                    '&:hover': {                        
+                        boxShadow: 10,
+                      }
+                }}>
       {/* Imagen de la Card */}
       <CardMedia
         component="img"
-        height="160"
+        height="180"
         image={props.src}
         alt="Image"
         sx={{
-          filter: 'hue-rotate(350deg) saturate(30%)',
+          filter: 'hue-rotate(10deg) saturate(80%)',
           transition: 'transform 0.3s ease', // Agrega transición suave
           '&:hover': {
             transform: 'scale(1.15)', // Agranda la imagen al 10% cuando hover
