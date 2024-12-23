@@ -1,89 +1,101 @@
 import React from 'react'
-import { 
-  Typography, 
-  Accordion, 
-  AccordionSummary, 
-  AccordionDetails,
-  List,
-  ListItem,
-  ListItemText,
-  Divider,
-  Box
-} from '@mui/material'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
+import { Card, CardContent, Typography, List, ListItem, ListItemText, Divider } from '@mui/material'
+
+const NumberedListItem = ({ number, title, content }) => (
+  <ListItem>
+    <ListItemText
+      primary={
+        <Typography variant="subtitle1">
+          <span className="inline-block w-8 h-8 mr-2 bg-blue-500 text-white rounded-full text-center leading-8">
+            {number}
+          </span>
+          {title}
+        </Typography>
+      }
+      secondary={content}
+    />
+  </ListItem>
+);
 
 const ContentSection = ({ section }) => {
-
-
-  return (
-    <Box mb={2}>
-      <Typography variant="h6" gutterBottom>{section.title}</Typography>
-      {section.type === 'text' && (
-        <Typography variant="body1">
-          {section.content}
-        </Typography>
-      )}
-      {section.type === 'list' && (
-        <List>
-          {section.items.map((item, index) => (
-            <React.Fragment key={index}>
-              <ListItem>
-                <ListItemText
-                  primary={<Typography variant="subtitle1">{item.subtitle}</Typography>}
-                  secondary={item.text}
-                />
-              </ListItem>
-              {index < section.items.length - 1 && <Divider />}
-            </React.Fragment>
-          ))}
-        </List>
-      )}
-      {section.type === 'numbered-list' && (
-        <List>
-          {section.items.map((item, index) => (
-            <ListItem key={index}>
-              <ListItemText
-                primary={
-                  <Typography variant="subtitle1">
-                    <Box component="span" mr={1} fontWeight="bold">
-                      {index + 1}.
-                    </Box>
-                    {item.title}
-                  </Typography>
-                }
-                secondary={item.content}
-              />
-            </ListItem>
-          ))}
-        </List>
-      )}
-    </Box>
-  );
+  switch (section.type) {
+    case 'header':
+      return (
+        <Card sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', mb: 2 }}>
+          <CardContent>
+            <Typography variant="h4" component="h1">
+              {section.content}
+            </Typography>
+          </CardContent>
+        </Card>
+      );
+    case 'text':
+      return (
+        <Card sx={{ mb: 2 }}>
+          <CardContent>
+            <Typography variant="h5" component="h2" color="primary" gutterBottom>
+              {section.title}
+            </Typography>
+            <Typography variant="body1">
+              {section.content}
+            </Typography>
+          </CardContent>
+        </Card>
+      );
+    case 'list':
+      return (
+        <Card sx={{ mb: 2 }}>
+          <CardContent>
+            <Typography variant="h5" component="h2" color="primary" gutterBottom>
+              {section.title}
+            </Typography>
+            <List>
+              {section.items.map((item, index) => (
+                <React.Fragment key={index}>
+                  <ListItem>
+                    <ListItemText
+                      primary={<Typography variant="subtitle1">{item.subtitle}</Typography>}
+                      secondary={item.text}
+                    />
+                  </ListItem>
+                  {index < section.items.length - 1 && <Divider />}
+                </React.Fragment>
+              ))}
+            </List>
+          </CardContent>
+        </Card>
+      );
+    case 'numbered-list':
+      return (
+        <Card sx={{ mb: 2 }}>
+          <CardContent>
+            <List>
+              {section.items.map((item, index) => (
+                <React.Fragment key={index}>
+                  <NumberedListItem
+                    number={index + 1}
+                    title={item.title}
+                    content={item.content}
+                  />
+                  {index < section.items.length - 1 && <Divider />}
+                </React.Fragment>
+              ))}
+            </List>
+          </CardContent>
+        </Card>
+      );
+    default:
+      return null;
+  }
 };
 
 export function PlantillaInfo({ content }) {
-  const headerSection = content.sections.find(section => section.type === 'header');
-  const contentSections = content.sections.filter(section => section.type !== 'header');
-
   return (
-    <Accordion sx={{ mb: 2 }}>
-      <AccordionSummary
-        expandIcon={<ExpandMoreIcon />}
-        aria-controls="panel-content"
-        id="panel-header"
-        sx={{ bgcolor: 'primary.main', color: 'primary.contrastText' }}
-      >
-        <Typography variant="h5">
-          {headerSection ? headerSection.content : content.title}
-        </Typography>
-      </AccordionSummary>
-      <AccordionDetails>
-        <Box sx={{ mt: 2 }}>
-          {contentSections.map((section, index) => (
-            <ContentSection key={index} section={section} />
-          ))}
-        </Box>
-      </AccordionDetails>
-    </Accordion>
+    <div style={{ maxWidth: '64rem', margin: '0 auto', padding: '1rem' }}>
+      {content.sections.map((section, index) => (
+        <ContentSection key={index} section={section} />
+      ))}
+    </div>
   );
 }
+

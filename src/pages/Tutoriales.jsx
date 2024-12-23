@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Divider } from '@mui/material';
 import Layout from '../components/Layout';
-import { PlantillaInfo } from '../components/PlantillaInfo'
+import { Acordion } from '../components/Acordion'
 
 import baño from "../data/tutorial/baño-perro.json"
 import crema from "../data/tutorial/crema-piel.json"
@@ -27,7 +27,7 @@ function Tutoriales() {
                 }}>
                 {contentData.map((item, index) => (
                     <React.Fragment key={item.type}>
-                        <PlantillaInfo content={item.data} />
+                        <Acordion content={item.data} />
                         {index < contentData.length - 1 && <Divider sx={{ my: 3 }} />}
                     </React.Fragment>
                 ))}

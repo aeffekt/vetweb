@@ -1,96 +1,54 @@
-import React from 'react'
-import { 
-  Typography, 
-  List,
-  ListItem,
-  ListItemText,
-  Divider,
-  Box,
-  Paper
-} from '@mui/material'
+import React, { useEffect, useState } from 'react';
+import { Container, Typography, Box } from '@mui/material';
+import { useLocation } from 'react-router-dom';
 import Layout from '../components/Layout';
+import { PlantillaInfo } from '../components/PlantillaInfo';
 
+function Servicio() {
+    const location = useLocation();
+    const { dataPath } = location.state || {};
+    const [serviceData, setServiceData] = useState(null);
 
-const ContentSection = ({ section }) => {
-  if (section.type === 'header') {
-    return null;
-  }
+    useEffect(() => {
+        if (dataPath) {
+            fetch(dataPath)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Error al cargar los datos");
+                    }
+                    return response.json();
+                })
+                .then((data) => setServiceData(data))
+                .catch((error) => console.error(error));
+        }
+    }, [dataPath]);
 
-  return (
-    <Layout>
-        <Box mb={2}>
-        <Typography variant="h6" gutterBottom>{section.title}</Typography>
-        {section.type === 'text' && (
-          <Typography variant="body1">
-            {section.content}
-          </Typography>
-        )}
-        {section.type === 'list' && (
-          <List>
-            {section.items.map((item, index) => (
-              <React.Fragment key={index}>
-                <ListItem>
-                  <ListItemText
-                    primary={<Typography variant="subtitle1">{item.subtitle}</Typography>}
-                    secondary={item.text}
-                  />
-                </ListItem>
-                {index < section.items.length - 1 && <Divider />}
-              </React.Fragment>
-            ))}
-          </List>
-        )}
-        {section.type === 'numbered-list' && (
-          <List>
-            {section.items.map((item, index) => (
-              <ListItem key={index}>
-                <ListItemText
-                  primary={
-                    <Typography variant="subtitle1">
-                      <Box component="span" mr={1} fontWeight="bold">
-                        {index + 1}.
-                      </Box>
-                      {item.title}
+    if (!serviceData) {
+        return (
+            <Layout>
+                <Container maxWidth="lg" sx={{ py: 4 }}>
+                    <Typography variant="h4" component="h1" gutterBottom>
+                        Cargando...
                     </Typography>
-                  }
-                  secondary={item.content}
-                />
-              </ListItem>
-            ))}
-          </List>
-        )}
-      </Box>
-    </Layout>
-    
-  );
-};
+                </Container>
+            </Layout>
+        );
+    }
 
-function Servicio({ content }) {
-  const headerSection = content.sections.find(section => section.type === 'header');
-  const contentSections = content.sections.filter(section => section.type !== 'header');
-
-  return (
-    <Paper elevation={3} sx={{ mb: 4, p: 3, bgcolor: 'background.paper' }}>
-      <Typography 
-        variant="h4" 
-        component="h2" 
-        gutterBottom 
-        sx={{ 
-          color: 'primary.main',
-          borderBottom: '2px solid',
-          borderColor: 'primary.main',
-          pb: 1
-        }}
-      >
-        {headerSection ? headerSection.content : content.title}
-      </Typography>
-      <Box sx={{ mt: 3 }}>
-        {contentSections.map((section, index) => (
-          <ContentSection key={index} section={section} />
-        ))}
-      </Box>
-    </Paper>
-  );
+    return (
+        <Layout>
+            <Container maxWidth="lg" sx={{ py: 4 }}>
+                <Box mb={4}>                    
+                    {serviceData.description && (
+                        <Typography variant="body1" gutterBottom>
+                            {serviceData.description}
+                        </Typography>
+                    )}
+                </Box>
+                <PlantillaInfo content={serviceData} />
+            </Container>
+        </Layout>
+    );
 }
 
 export default Servicio;

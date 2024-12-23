@@ -17,11 +17,11 @@ function MyCard(props) {
         image={props.src}
         alt="Image"
         sx={{
-          filter: 'hue-rotate(10deg) saturate(80%)',
+          filter: 'none',
           transition: 'transform 0.3s ease', // Agrega transición suave
           '&:hover': {
             transform: 'scale(1.15)', // Agranda la imagen al 10% cuando hover
-            filter: 'none',
+            filter: 'hue-rotate(15deg) saturate(130%)',            
           },
         }}
       />

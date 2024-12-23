@@ -6,8 +6,7 @@ import WhatsAppIcon from './WhatsAppIcon';
 
 const Layout = ({ children }) => {
     return (
-        <>  
-          <i><small>Página en construcción!</small></i>
+        <>           
           <Header />
           <Navbar />            
             <div id="layout-content">

@@ -13,10 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 
   text-align: center;
-
-  --primary-color:rgb(32, 98, 145);
-  --secondary-color: rgb(20, 74, 112);  
-  --alternative: rgb(69, 114, 155);
 }
 
 .lexend-font {
@@ -31,11 +27,9 @@
 
 html,
 body {
-  margin: 0px;  
-  color: var(--alternative);
+  margin: 0px;    
   font-size: 1.1em;
-  scroll-behavior: smooth;
-  
+  scroll-behavior: smooth;  
 }
 
 #layout-content {  
