@@ -3,11 +3,11 @@ import { Box, Divider } from '@mui/material';
 import Layout from '../components/Layout';
 import { Acordion } from '../components/Acordion'
 
-import baño from "../data/tutorial/baño-perro.json"
-import crema from "../data/tutorial/crema-piel.json"
-import gotas from "../data/tutorial/gotas-otitis.json"
-import locionAntiseptica from "../data/tutorial/locion-antiseptica.json"
-import locionHumectante from "../data/tutorial/locion-humectante.json"
+import baño from "../data//tutorial/baño-perro.json"
+import crema from "../data//tutorial/crema-piel.json"
+import gotas from "../data//tutorial/gotas-otitis.json"
+import locionAntiseptica from "../data//tutorial/locion-antiseptica.json"
+import locionHumectante from "../data//tutorial/locion-humectante.json"
 
 
 const contentData = [
