@@ -9,7 +9,8 @@ import data from '../data/servicios.json';
 
 const Carousel = () => {   
     const carouselStyle = {
-        width: '500px', // Cambia el porcentaje o usa valores en px como '600px'
+        width: '100%',
+        maxWidth: '500px',
         margin: '0 auto', // Centra el carrusel horizontalmente        
     };
 
