@@ -95,7 +95,19 @@ export function PlantillaInfo({ content }) {
       {content.sections.map((section, index) => (
         <ContentSection key={index} section={section} />
       ))}
-      <img src={content.image} alt="" />
+      <Box
+        component="img"
+        src={content.image}
+        alt={content.title || ""}
+        sx={{
+          width: '100%',
+          height: 'auto',
+          maxWidth: { xs: '100%', sm: '500px', md: '600px' },
+          objectFit: 'cover',
+          borderRadius: 2,
+          boxShadow: 3,
+        }}
+    />
     </Box>
   );
 }
