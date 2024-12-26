@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import {
   AppBar,
   Box,
@@ -10,19 +10,12 @@ import {
   ListItemButton,
   ListItemText,
   Drawer,
-  Popper,
-  Paper,
-  Grow,
-  MenuList,
-  MenuItem,
-  ClickAwayListener,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import serviciosData from '../data/servicios.json';
 
 const navItems = [
   { label: 'Página principal', path: '/' },
-  { label: 'Servicios', path: '/servicios', hasDropdown: true },
+  { label: 'Servicios', path: '/servicios' },
   { label: 'Quienes Somos', path: '/QuienesSomos' },
   { label: 'Preguntas Frecuentes', path: '/preguntas-frecuentes' },
   { label: 'Contacto', path: '/Contacto' },
@@ -30,31 +23,13 @@ const navItems = [
 
 function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [anchorEl, setAnchorEl] = useState(null);
-  const navigate = useNavigate();
   const location = useLocation();
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
 
-  const handlePopoverOpen = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handlePopoverClose = () => {
-    setAnchorEl(null);
-  };
-
-  const handleServiceClick = () => {
-    navigate('/servicios');
-    handlePopoverClose();
-    setMobileOpen(false);
-  };
-
   const isActive = (path) => location.pathname === path;
-
-  const open = Boolean(anchorEl);
 
   const drawer = (
     <Box
@@ -107,7 +82,6 @@ function Navbar() {
                 key={item.label}
                 component={Link}
                 to={item.path}
-                onMouseEnter={item.hasDropdown ? handlePopoverOpen : null}
                 sx={{
                   color: 'white',
                   backgroundColor: isActive(item.path) ? 'primary.light' : 'primary.main',
@@ -135,63 +109,15 @@ function Navbar() {
           '& .MuiDrawer-paper': {
             boxSizing: 'border-box',
             width: 240,
-            backgroundColor: 'primary.main',
+            backgroundColor: 'rgba(25, 118, 210, 0.9)',
             backdropFilter: 'blur(8px)',
           },
         }}
       >
         {drawer}
       </Drawer>
-
-      <Popper
-        open={open}
-        anchorEl={anchorEl}
-        role={undefined}
-        transition
-        disablePortal
-        placement="bottom-start"
-        style={{ zIndex: 1300 }}
-      >
-        {({ TransitionProps, placement }) => (
-          <Grow
-            {...TransitionProps}
-            style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
-          >
-            <Paper sx={{
-              backgroundColor: 'primary.main',
-              backdropFilter: 'blur(5px)',
-            }}>
-              <ClickAwayListener onClickAway={handlePopoverClose}>
-                <MenuList
-                  autoFocusItem={open}
-                  id="menu-list-grow"
-                  sx={{
-                    '& .MuiMenuItem-root': {
-                      color: 'white',
-                      '&:hover': {
-                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                      },
-                    },
-                  }}
-                >
-                  {serviciosData.rows.map((servicio) => (
-                    <MenuItem
-                      key={servicio.title}
-                      onClick={() => handleServiceClick()}
-                    >
-                      {servicio.title}
-                    </MenuItem>
-                  ))}
-                </MenuList>
-              </ClickAwayListener>
-            </Paper>
-          </Grow>
-        )}
-      </Popper>
     </Box>
   );
 }
 
 export default Navbar;
-
-
