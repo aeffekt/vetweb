@@ -21,7 +21,8 @@ const Carousel = () => {
                         backgroundColor:"secondary.dark", 
                         color:'white',                        
                         p: 2,
-                        width: 500,
+                        width: '100%',
+                        maxwidth: '500',
                         margin: '0 auto',
                         mt: 5,                        
                         }}>Servicios

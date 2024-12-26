@@ -10,8 +10,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>    
     <ThemeProvider theme={theme}>
       <Box >
-        <Typography sx={{ textAlign: 'center', color: 'text.primary' }}>
-              <i><small>Página en construcción!</small></i>
+        <Typography sx={{ textAlign: 'center', color: 'text.primary' }}>              
           <App />    
         </Typography>
       </Box>      

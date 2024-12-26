@@ -68,7 +68,10 @@ function Home() {
         <Carousel />
       </a>
       
-      <Box sx={{ mt: 6 }}>       
+      <Box sx={{ mt: 6,
+        width: '100%',
+        maxwidth: '500',
+       }}>
         <a href="/tutoriales" title="Ir a tutoriales">
           <img
               decoding="async"

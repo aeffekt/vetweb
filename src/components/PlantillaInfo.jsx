@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, Typography, List, ListItem, ListItemText, Divider } from '@mui/material'
+import { Box, Card, CardContent, Typography, List, ListItem, ListItemText, Divider } from '@mui/material'
 
 const NumberedListItem = ({ number, title, content }) => (
   <ListItem>
@@ -7,7 +7,7 @@ const NumberedListItem = ({ number, title, content }) => (
       primary={
         <Typography variant="subtitle1">
           <span className="inline-block w-8 h-8 mr-2 bg-blue-500 text-white rounded-full text-center leading-8">
-            {number}
+            {number}- 
           </span>
           {title}
         </Typography>
@@ -17,11 +17,11 @@ const NumberedListItem = ({ number, title, content }) => (
   </ListItem>
 );
 
-const ContentSection = ({ section }) => {
+const ContentSection = ({ section }) => {  
   switch (section.type) {
     case 'header':
       return (
-        <Card sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', mb: 2 }}>
+        <Card sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', mb: 2 }}>          
           <CardContent>
             <Typography variant="h4" component="h1">
               {section.content}
@@ -91,11 +91,12 @@ const ContentSection = ({ section }) => {
 
 export function PlantillaInfo({ content }) {
   return (
-    <div style={{ maxWidth: '64rem', margin: '0 auto', padding: '1rem' }}>
+    <Box style={{ maxWidth: '64rem', margin: '0 auto', padding: '1rem' }}>
       {content.sections.map((section, index) => (
         <ContentSection key={index} section={section} />
       ))}
-    </div>
+      <img src={content.image} alt="" />
+    </Box>
   );
 }
 

@@ -37,16 +37,7 @@ function Servicio() {
 
     return (
         <Layout>
-            <Container maxWidth="lg" sx={{ py: 4 }}>
-                <Box mb={4}>                    
-                    {serviceData.description && (
-                        <Typography variant="body1" gutterBottom>
-                            {serviceData.description}
-                        </Typography>
-                    )}
-                </Box>
-                <PlantillaInfo content={serviceData} />
-            </Container>
+            <PlantillaInfo content={serviceData} />            
         </Layout>
     );
 }
