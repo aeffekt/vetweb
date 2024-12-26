@@ -78,6 +78,19 @@ export function Acordion({ content }) {
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
+        <Box
+                component="img"
+                src={content.image}
+                alt={content.title || ""}
+                sx={{
+                  width: '100%',
+                  height: 'auto',
+                  maxWidth: { xs: '100%', sm: '200px', md: '300px' },
+                  objectFit: 'cover',
+                  borderRadius: 2,
+                  boxShadow: 3,
+                }}
+            />
         <Box sx={{ mt: 2 }}>
           {contentSections.map((section, index) => (
             <ContentSection key={index} section={section} />

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 import Card from '../components/MyCard';
 import Carousel from '../components/Carousel';
-import { Box, Stack } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 
 
 function Home() {
@@ -72,40 +72,59 @@ function Home() {
         width: '100%',
         maxwidth: '500',
        }}>
-        <a href="/tutoriales" title="Ir a tutoriales">
+        
+        <a href="/tutoriales" title="Ir a tutoriales" className="no-decoration">
+          <Typography
+            variant="h2"
+            sx={{
+                textAlign: 'center',
+                backgroundColor: 'secondary.dark',
+                color: 'white',
+                p: 2,
+                mt: 5,
+                maxWidth: '100%',
+                width: '820px',
+                margin: '0 auto', // Centra horizontalmente
+            }}
+          >
+          Tutoriales
+        </Typography>
+        <Box >
           <img
-              decoding="async"
-              src="/images/p1.jpg"
-              alt="Imagen Perro"
-              style={{
-                  width: 'auto',
-                  height: '300px',
-                  margin: '0 auto',
+                decoding="async"
+                src="/images/p1.jpg"
+                alt="Imagen Perro"
+                style={{
+                    width: 'auto',
+                    height: '300px',
+                    margin: '0 auto',
 
-              }}
-          />
-          <img
-              decoding="async"
-              src="/images/s1b.jpg"
-              alt="Imagen Gato"
-              style={{
-                  width: 'auto',
-                  height: '300px',
-                  margin: '0 auto',
+                }}
+            />
+            <img
+                decoding="async"
+                src="/images/s1b.jpg"
+                alt="Imagen Gato"
+                style={{
+                    width: 'auto',
+                    height: '300px',
+                    margin: '0 auto',
 
-              }}
-          />
-          <img
-              decoding="async"
-              src="/images/p2.jpg"
-              alt="Imagen Perro"
-              style={{
-                  width: 'auto',
-                  height: '300px',
-                  margin: '0 auto',
+                }}
+            />
+            <img
+                decoding="async"
+                src="/images/p2.jpg"
+                alt="Imagen Perro"
+                style={{
+                    width: 'auto',
+                    height: '300px',
+                    margin: '0 auto',
 
-              }}
-          />
+                }}
+            />
+        </Box>
+          
         </a>    
       </Box>
     </Layout>
