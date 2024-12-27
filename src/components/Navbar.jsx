@@ -48,7 +48,7 @@ function Navbar() {
               sx={{
                 textAlign: 'center',
                 color: 'white',
-                borderBottom: isActive(item.path) ? '2px solid #ffffff' : 'none',
+                border: isActive(item.path) ? '2px solid #dddddd' : 'none',
                 '&:hover': {
                   backgroundColor: 'primary.dark',
                 },
@@ -109,7 +109,7 @@ function Navbar() {
           '& .MuiDrawer-paper': {
             boxSizing: 'border-box',
             width: 240,
-            backgroundColor: 'rgba(25, 118, 210, 0.9)',
+            backgroundColor: 'primary.main',
             backdropFilter: 'blur(8px)',
           },
         }}
