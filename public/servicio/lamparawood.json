@@ -3,7 +3,7 @@
   "image": "/images/s4a.jpg",
   "sections": [
     {
-      "type": "header",
+      "type": "headerText",
       "content": "LAMPARA DE WOOD"
     },
     {

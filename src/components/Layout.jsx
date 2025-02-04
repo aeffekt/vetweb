@@ -1,4 +1,4 @@
-import Header from './Header';
+import HeaderMain from './HeaderMain';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import WhatsAppIcon from './WhatsAppIcon';
@@ -7,7 +7,7 @@ import WhatsAppIcon from './WhatsAppIcon';
 const Layout = ({ children }) => {
     return (
         <>           
-          <Header />
+          <HeaderMain />
           <Navbar />            
             <div id="layout-content">
                 {children}

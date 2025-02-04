@@ -3,7 +3,7 @@
     "image": "/images/s7a.jpg",
     "sections": [
       {
-        "type": "header",
+        "type": "headerText",
         "content": "INMUNOTERAPIA"
       },
       {

@@ -4,7 +4,7 @@ import Toolbar from "@mui/material/Toolbar"
 import { Box } from "@mui/material"
 import useMediaQuery from "@mui/material/useMediaQuery"
 
-function Header() {
+function HeaderMain() {
   const isSmallScreen = useMediaQuery("(max-width: 599px)");
   const isMediumScreen = useMediaQuery("(min-width: 600px) and (max-width: 960px)");
 
@@ -86,4 +86,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderMain;

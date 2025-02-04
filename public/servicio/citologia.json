@@ -3,7 +3,7 @@
     "image": "/images/s3a.jpg",
     "sections": [
       {
-        "type": "header",
+        "type": "headerText",
         "content": "CITOLOGÍA DERMATOLÓGICA"
       },
       {

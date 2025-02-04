@@ -3,7 +3,7 @@
     "image": "/images/s2b.jpg",
     "sections": [
       {
-        "type": "header",
+        "type": "headerText",
         "content": "PRICK TEST DE ALERGIA"
       },
       {

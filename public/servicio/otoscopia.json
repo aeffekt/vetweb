@@ -3,7 +3,7 @@
   "image": "/images/s5a.jpg",
   "sections": [
     {
-      "type": "header",
+      "type": "headerText",
       "content": "OTOSCOPIA"
     },
     {

@@ -36,7 +36,7 @@ function Servicio() {
     }
 
     return (
-        <Layout>
+        <Layout>            
             <PlantillaInfo content={serviceData} />            
         </Layout>
     );

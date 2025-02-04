@@ -3,7 +3,7 @@
     "image": "/images/s6a.jpg",
     "sections": [
       {
-        "type": "header",
+        "type": "headerText",
         "content": "HISTOPATOLOGIA"
       },
       {

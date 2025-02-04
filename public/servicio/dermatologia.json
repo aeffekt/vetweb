@@ -3,8 +3,8 @@
     "image": "/images/s2c.jpg",
     "sections": [
       {
-        "type": "header",
-        "content": "CONSULTAS DERMATOLOGICAS"
+        "type": "headerText",
+        "content": "CONSULTA DERMATOLOGICA"
       },
       {
         "type": "text",
@@ -14,7 +14,7 @@
       {
         "type": "text",
         "title": "¿EN QUE CONSISTE?",
-        "content": "La consulta dermatológica se compone de 5 pasos:"
+        "content": "La consulta se compone de 5 pasos:"
       },
       {
         "type": "numbered-list",
