@@ -8,7 +8,7 @@ import serviciosData from '../data/servicios.json';
 function Servicios() {
     return (
         <Layout>
-            <Box sx={{ py: 2 }}>
+            <Box sx={{ display: "flex", justifyContent: "center", py: 2 }}>
                 <Stack
                     direction={{ xs: 'column', sm: 'row' }}
                     spacing={2}

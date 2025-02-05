@@ -32,7 +32,7 @@ function Home() {
 
   return (
     <Layout>
-      <Box sx={{ py: 2 }}>       
+      <Box sx={{ display: "flex", justifyContent: "center", py: 2 }}>
 
         {/* Stack para hacer los cards responsivos */}
         <Stack

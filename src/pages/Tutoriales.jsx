@@ -22,13 +22,14 @@ function Tutoriales() {
     return (
         <Layout>            
             <Box 
-                sx={{ 
-                    py: 4,                     
+                sx={{                     
+                    py: 4,
+                    px: 2,                    
                 }}>
                 {contentData.map((item, index) => (
                     <React.Fragment key={item.type}>
                         <Acordion content={item.data} />
-                        {index < contentData.length - 1 && <Divider sx={{ my: 3 }} />}
+                            {index < contentData.length - 1 && <Divider sx={{ my: 3 }} />}
                     </React.Fragment>
                 ))}
             </Box>            

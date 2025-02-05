@@ -12,11 +12,22 @@ import {
 } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
+
+const boxStyle = {
+  mb: 2,
+  backgroundImage: 'url("/images/b1.png")',
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundColor: "rgba(255, 255, 255, 0.8)",
+  backgroundBlendMode: "overlay",
+}
+
 const ContentSection = ({ section }) => {
 
 
   return (
-    <Box mb={2}>
+    <Box mb={2}
+    sx={{ ...boxStyle, }}>
       <Typography variant="h6" gutterBottom>{section.title}</Typography>
       {section.type === 'text' && (
         <Typography variant="body1">
