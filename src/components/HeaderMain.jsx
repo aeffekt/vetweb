@@ -33,6 +33,7 @@ function HeaderMain() {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
+              userSelect: "none",
           }}
       >
           <Toolbar
@@ -65,6 +66,9 @@ function HeaderMain() {
                           height: main, // Este ya se ajusta dinámicamente
                           maxWidth: "100%",
                           objectFit: "contain",
+                          userSelect: "none",
+                          pointerEvents: "none", // Opcional, si no quieres que sea clickeable
+
                       }}
                   />
                   
