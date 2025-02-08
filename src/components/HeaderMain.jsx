@@ -56,13 +56,7 @@ function HeaderMain() {
                       gap: 2,
                   }}
               >
-                  {!isSmallScreen && (
-                      <img
-                          src="/images/p2b.png"
-                          alt="Left Image"
-                          style={{ ...sideImageStyle, marginTop: "40px" }}
-                      />
-                  )}
+                 
                   <img
                       decoding="async"
                       src="/images/l1.png"
@@ -73,13 +67,7 @@ function HeaderMain() {
                           objectFit: "contain",
                       }}
                   />
-                  {!isSmallScreen && (
-                      <img
-                          src="/images/g1.png"
-                          alt="Right Image"
-                          style={{ ...sideImageStyle, marginTop: "43px" }}
-                      />
-                  )}
+                  
               </Box>
           </Toolbar>
       </AppBar>

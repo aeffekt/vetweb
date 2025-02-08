@@ -139,7 +139,9 @@ export function PlantillaInfo({ content }) {
                 component="img"
                 src="/images/b2.jpg"
                 alt="Header Image"
+
                 sx={{
+                my:4,
                 width: "100%",
                 height: "200px",
                 objectFit: "cover",
