@@ -68,60 +68,6 @@ function Home() {
         <Carousel />
       </a>
       
-      <Box sx={{ mt: 6, }}>        
-        <a href="/tutoriales" title="Ir a tutoriales" className="no-decoration">
-          <Typography
-            variant="h2"
-            sx={{
-                textAlign: 'center',
-                backgroundColor: 'secondary.dark',
-                color: 'white',
-                p: 2,
-                mt: 5,
-                maxWidth: '100%',
-                width: '886px',
-                margin: '0 auto', // Centra horizontalmente
-            }}
-          >
-          Tutoriales
-          </Typography>
-          <Box >
-            <img
-                  decoding="async"
-                  src="/images/p1.jpg"
-                  alt="Imagen Perro"
-                  style={{
-                      
-                      height: '300px',
-                      margin: '0 auto',
-
-                  }}
-              />
-              <img
-                  decoding="async"
-                  src="/images/s1b.jpg"
-                  alt="Imagen Gato"
-                  style={{
-                      
-                      height: '300px',
-                      margin: '0 auto',
-
-                  }}
-              />
-              <img
-                  decoding="async"
-                  src="/images/p2.jpg"
-                  alt="Imagen Perro"
-                  style={{
-                      
-                      height: '300px',
-                      margin: '0 auto',
-
-                  }}
-              />
-          </Box>          
-        </a>    
-      </Box>
     </Layout>
   );
 }

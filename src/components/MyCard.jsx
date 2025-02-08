@@ -20,8 +20,8 @@ function MyCard(props) {
           filter: 'none',
           transition: 'transform 0.3s ease', // Agrega transición suave
           '&:hover': {
-            transform: 'scale(1.15)', // Agranda la imagen al 10% cuando hover
-            filter: 'hue-rotate(15deg) saturate(130%)',            
+            transform: 'scale(1.15)', // Agranda la imagen al 15% cuando hover
+            filter: 'hue-rotate(330deg) saturate(400%)',            
           },
         }}
       />
