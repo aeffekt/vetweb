@@ -4,8 +4,10 @@ import Card from '../components/MyCard';
 import Carousel from '../components/Carousel';
 import { Box, Stack, Typography } from '@mui/material';
 
-
 function Home() {
+  // Puedes ajustar este valor para controlar el tamaño de las tarjetas en pantallas pequeñas
+  const smallScreenCardWidth = '30%';
+
   const cardData = [
     {
       title: "Servicios",
@@ -33,33 +35,62 @@ function Home() {
   return (
     <Layout>
       <Box sx={{ display: "flex", justifyContent: "center", py: 2 }}>
-
         {/* Stack para hacer los cards responsivos */}
         <Stack
-          direction={{ xs: 'column', sm: 'row' }}
+          direction={{ xs: 'row', sm: 'row' }}
           spacing={2}
-          justifyContent="center"          
+          justifyContent="center"
+          sx={{
+            overflowX: { xs: 'auto', sm: 'visible' },
+            width: '100%',
+            '&::-webkit-scrollbar': {
+              display: 'none'
+            },
+            scrollbarWidth: 'none',
+          }}
         >
           {cardData.map((card, index) => (
-                <Box key={index} sx={{ width: { xs: '100%', sm: '30%' } }}>
-                  {card.isExternal ? (
-                    <a href={card.link} target="_blank" rel="noopener noreferrer" className="no-decoration">
-                      <Card
-                        title={card.title}
-                        description={card.content}
-                        src={card.image}
-                      />
-                    </a>
-                  ) : (
-                    <Link to={card.link} className="no-decoration">
-                      <Card
-                        title={card.title}
-                        description={card.content}
-                        src={card.image}
-                      />
-                    </Link>
-                  )}
-                </Box>
+            <Box 
+              key={index} 
+              sx={{ 
+                width: { xs: smallScreenCardWidth, sm: '30%' },
+                flexShrink: 0,
+              }}
+            >
+              {card.isExternal ? (
+                <a href={card.link} target="_blank" rel="noopener noreferrer" className="no-decoration">
+                  <Card
+                    title={card.title}
+                    description={card.content}
+                    src={card.image}
+                    sx={{
+                      '& .MuiCardMedia-root': {
+                        width: '100%',
+                        '@media (max-width:600px)': {
+                          width: '40%',
+                        },
+                      },
+                    }}
+                  />
+                </a>
+              ) : (
+                <Link to={card.link} className="no-decoration">
+                  <Card                    
+                    title={card.title}
+                    description={card.content}
+                    src={card.image}
+                    sx={{
+                      '& .MuiCardMedia-root': {
+                        width: '100%',
+                        '@media (max-width:600px)': {
+                          width: '40%',
+                        },
+                      },
+                    }}
+                  />
+                </Link>
+              )}
+            </Box>
           ))}
         </Stack>
       </Box>
@@ -67,7 +98,6 @@ function Home() {
       <a href="/servicios" className="no-decoration">
         <Carousel />
       </a>
-      
     </Layout>
   );
 }
