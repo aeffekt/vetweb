@@ -2,10 +2,18 @@ import React from 'react';
 import { Box, Typography, Container } from '@mui/material';
 import { Info } from '@mui/icons-material';
 import Layout from '../components/Layout';
+import MyBanner from '../components/MyBanner';
 
 function QuienesSomos() {
   return (
     <Layout>
+      <MyBanner
+              src={"/images/b10.jpg"}
+              alt={`Cat & Dog`}
+              height={ "220px"}              
+              sx={{ my: "20px" }} 
+            />
+
       <Container sx={{ maxWidth: 'md', paddingY: 4 }}>
         {/* Título */}
         <Typography

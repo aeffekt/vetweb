@@ -1,5 +1,6 @@
 import React from "react"
 import { Box, Card, CardContent, Typography, List, ListItem, ListItemText, Divider } from "@mui/material"
+import MyBanner from "./MyBanner"
 
 const NumberedListItem = ({ number, title, content }) => (
   <ListItem>
@@ -135,17 +136,10 @@ const ContentSection = ({ section }) => {
 export function PlantillaInfo({ content }) {
   return (
     <Box>
-      <Box
-          component="img"
-          src="/images/b2.jpg"
-          alt="Header Image"
-          sx={{
-          my:4,
-          width: "100%",
-          height: "200px",
-          objectFit: "cover",
-          objectPosition: "center",
-          }}
+      <MyBanner
+        src={content.headerImage || "/images/b2.jpg"}
+        alt={`${content.title} Header`}
+        height={content.headerHeight || "250px"}
       />
       <Box style={{ maxWidth: "64rem", margin: "0 auto", padding: "1rem" }}>
         {content.sections.map((section, index) => (

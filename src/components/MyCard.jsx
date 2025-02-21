@@ -21,7 +21,7 @@ function MyCard(props) {
           transition: 'transform 0.3s ease', // Agrega transición suave
           '&:hover': {
             transform: 'scale(1.15)', // Agranda la imagen al 15% cuando hover
-            filter: 'hue-rotate(330deg) saturate(400%)',            
+            filter: 'hue-rotate(330deg) saturate(100%)',            
           },
           '@media (max-width:600px)': {
             height: '80px', // Ajusta el tamaño de la imagen en pantallas pequeñas

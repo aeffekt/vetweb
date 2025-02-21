@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 import Card from '../components/MyCard';
 import Carousel from '../components/Carousel';
-import { Box, Stack, Typography } from '@mui/material';
+import MyBanner from '../components/MyBanner';
+import { Box, Stack } from '@mui/material';
 
 function Home() {
   // Puedes ajustar este valor para controlar el tamaño de las tarjetas en pantallas pequeñas
@@ -34,6 +35,7 @@ function Home() {
 
   return (
     <Layout>
+      
       <Box sx={{ display: "flex", justifyContent: "center", py: 2 }}>
         {/* Stack para hacer los cards responsivos */}
         <Stack
@@ -94,6 +96,13 @@ function Home() {
           ))}
         </Stack>
       </Box>
+
+      <MyBanner
+              src={"/images/b10.jpg"}
+              alt={`Cat & Dog`}
+              height={ "250px"}              
+              sx={{ my: "80px" }} 
+            />
 
       <a href="/servicios" className="no-decoration">
         <Carousel />
