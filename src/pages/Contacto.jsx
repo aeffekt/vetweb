@@ -54,7 +54,7 @@ function Contact() {
         {/* WhatsApp - Agenda una cita */}
         <Box>          
           <Link 
-            href={`https://api.whatsapp.com/send?phone=+54%209%20351%20217-2630&text=${encodeURIComponent(whatsappMessage)}`} 
+            href={`https://api.whatsapp.com/send?phone=+54%209%20351%20382-9351&text=${encodeURIComponent(whatsappMessage)}`} 
             target="_blank"
             sx={{
               display: 'flex', 

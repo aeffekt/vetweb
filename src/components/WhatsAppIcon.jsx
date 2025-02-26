@@ -1,5 +1,5 @@
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import logo from '/images/i2.jpg';
+import logo from '/images/i7.png';
 import { Box } from '@mui/material';
 
 
@@ -8,8 +8,8 @@ function WhatsAppIcon() {
   return (
     <Box>
       <FloatingWhatsApp  
-        phoneNumber='+54 9 351 217-2630'
-        accountName='Veterinaria NEFRONCOVET'
+        phoneNumber='+54 9 351 382-9351'
+        accountName='Veterinaria DAC'
         chatMessage="Hola! Escribe un mensaje y envíalo por whatsapp"
         statusMessage=""
         placeholder="Escriba un mensaje"
